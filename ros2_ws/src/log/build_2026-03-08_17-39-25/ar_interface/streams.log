@@ -1,0 +1,18 @@
+[0.993s] Invoking command in '/home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/build/ar_interface': PYTHONPATH=/home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/build/ar_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/install/ar_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/build/ar_interface/build --no-deps symlink_data --force
+[1.280s] running develop
+[1.473s] running egg_info
+[1.473s] writing ar_interface.egg-info/PKG-INFO
+[1.474s] writing dependency_links to ar_interface.egg-info/dependency_links.txt
+[1.474s] writing entry points to ar_interface.egg-info/entry_points.txt
+[1.474s] writing requirements to ar_interface.egg-info/requires.txt
+[1.474s] writing top-level names to ar_interface.egg-info/top_level.txt
+[1.476s] reading manifest file 'ar_interface.egg-info/SOURCES.txt'
+[1.477s] writing manifest file 'ar_interface.egg-info/SOURCES.txt'
+[1.478s] running build_ext
+[1.478s] Creating /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/install/ar_interface/lib/python3.10/site-packages/ar-interface.egg-link (link to .)
+[1.479s] 
+[1.479s] Installed /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/build/ar_interface
+[1.479s] running symlink_data
+[1.479s] symbolically linking /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/build/ar_interface/resource/ar_interface -> /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/install/ar_interface/share/ament_index/resource_index/packages
+[1.480s] symbolically linking /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/build/ar_interface/package.xml -> /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/install/ar_interface/share/ar_interface
+[1.515s] Invoked command in '/home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/build/ar_interface' returned '0': PYTHONPATH=/home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/build/ar_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/install/ar_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/build/ar_interface/build --no-deps symlink_data --force

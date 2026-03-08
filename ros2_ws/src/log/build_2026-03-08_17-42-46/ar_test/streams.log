@@ -1,0 +1,29 @@
+[1.010s] Invoking command in '/home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/build/ar_test': PYTHONPATH=/home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/build/ar_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/install/ar_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/build/ar_test/build
+[1.312s] running develop
+[1.511s] Removing /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/install/ar_test/lib/python3.10/site-packages/ar-test.egg-link (link to .)
+[1.546s] Invoked command in '/home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/build/ar_test' returned '0': PYTHONPATH=/home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/build/ar_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/install/ar_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/build/ar_test/build
+[1.550s] Invoking command in '/home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/ar_test': PYTHONPATH=/home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/build/ar_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/install/ar_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ar_test build --build-base /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/build/ar_test/build install --record /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/build/ar_test/install.log --single-version-externally-managed install_data --force
+[1.836s] running egg_info
+[1.837s] writing ../build/ar_test/ar_test.egg-info/PKG-INFO
+[1.837s] writing dependency_links to ../build/ar_test/ar_test.egg-info/dependency_links.txt
+[1.837s] writing entry points to ../build/ar_test/ar_test.egg-info/entry_points.txt
+[1.838s] writing requirements to ../build/ar_test/ar_test.egg-info/requires.txt
+[1.838s] writing top-level names to ../build/ar_test/ar_test.egg-info/top_level.txt
+[1.839s] reading manifest file '../build/ar_test/ar_test.egg-info/SOURCES.txt'
+[1.840s] writing manifest file '../build/ar_test/ar_test.egg-info/SOURCES.txt'
+[1.840s] running build
+[1.840s] running build_py
+[1.841s] running install
+[1.841s] running install_lib
+[1.842s] creating /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/install/ar_test/lib/python3.10/site-packages/ar_test
+[1.842s] copying /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/build/ar_test/build/lib/ar_test/__init__.py -> /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/install/ar_test/lib/python3.10/site-packages/ar_test
+[1.842s] byte-compiling /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/install/ar_test/lib/python3.10/site-packages/ar_test/__init__.py to __init__.cpython-310.pyc
+[1.842s] running install_data
+[1.843s] copying resource/ar_test -> /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/install/ar_test/share/ament_index/resource_index/packages
+[1.843s] copying package.xml -> /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/install/ar_test/share/ar_test
+[1.843s] running install_egg_info
+[1.844s] Copying ../build/ar_test/ar_test.egg-info to /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/install/ar_test/lib/python3.10/site-packages/ar_test-0.0.0-py3.10.egg-info
+[1.845s] running install_scripts
+[1.867s] Installing points_generator script to /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/install/ar_test/lib/ar_test
+[1.867s] writing list of installed files to '/home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/build/ar_test/install.log'
+[1.908s] Invoked command in '/home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/ar_test' returned '0': PYTHONPATH=/home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/build/ar_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/install/ar_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ar_test build --build-base /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/build/ar_test/build install --record /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/build/ar_test/install.log --single-version-externally-managed install_data --force

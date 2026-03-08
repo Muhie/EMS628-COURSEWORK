@@ -1,0 +1,3 @@
+[console_scripts]
+points_generator = py_pkg.points_generator:main
+

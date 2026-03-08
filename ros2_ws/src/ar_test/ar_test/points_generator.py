@@ -4,31 +4,31 @@
 import rclpy
 from rclpy.node import Node
 import random
-
-# from std_msgs.msg import 
+from std_msgs.msg import Float32MultiArray
+import math
 
 
 class MinimalPublisher(Node):
 
     def __init__(self):
         super().__init__('minimal_publisher')
-        self.publisher_ = self.create_publisher(float, 'topic', 10) # Create topic with a float data type
+        self.publisher_ = self.create_publisher(Float32MultiArray, 'topic', 10) # Create topic with a float data type
         timer_period = 10  # time for each message to be published
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.i = 0 # number of iterations
 
     def timer_callback(self):
-        msg = list[float] # Create a message full of floating point numbers
-        p0 = random.uniform(-10, 10)
-        pf = random.uniform(-10, 10)
-        v0 = random.uniform(-10, 10)
-        vf = random.uniform(-10, 10)
+        msg = Float32MultiArray()
+        p0 = round(random.uniform(-10, 10), 2)
+        pf = round(random.uniform(-10, 10), 2)
+        v0 = round(random.uniform(-10, 10), 2)
+        vf = round(random.uniform(-10, 10), 2)
         t0 = 0
-        dt = random.uniform(4,8)
+        dt = round(random.uniform(4,8),2)
         tf = t0 + dt
-        msg.data = [p0, pf, v0, vf, t0, tf]
+        msg.data = [float(p0), float(pf), float(v0), float(vf), float(t0), float(tf)]
         self.publisher_.publish(msg)
-        self.get_logger().info('Publishing: "%s"' % msg.data)
+        self.get_logger().info('Publishing')
         self.i += 1
 
 
@@ -48,3 +48,5 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
+
+

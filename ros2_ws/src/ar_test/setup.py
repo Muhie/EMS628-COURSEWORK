@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "points_generator = py_pkg.points_generator:main"
+            "points_generator = ar_test.points_generator:main"
         ],
     },
 )

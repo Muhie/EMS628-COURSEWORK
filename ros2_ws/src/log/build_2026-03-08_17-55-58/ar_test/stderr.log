@@ -1,0 +1,5 @@
+  File "/home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/install/ar_test/lib/python3.10/site-packages/ar_test/points_generator.py", line 20
+    def timer_callback(self)
+                            ^
+SyntaxError: expected ':'
+
