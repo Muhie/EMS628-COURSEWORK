@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating ar_interface.egg-info
+writing ar_interface.egg-info/PKG-INFO
+writing dependency_links to ar_interface.egg-info/dependency_links.txt
+writing entry points to ar_interface.egg-info/entry_points.txt
+writing requirements to ar_interface.egg-info/requires.txt
+writing top-level names to ar_interface.egg-info/top_level.txt
+writing manifest file 'ar_interface.egg-info/SOURCES.txt'
+reading manifest file 'ar_interface.egg-info/SOURCES.txt'
+writing manifest file 'ar_interface.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/install/ar_interface/lib/python3.10/site-packages/ar-interface.egg-link (link to .)
+
+Installed /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/build/ar_interface
+running symlink_data
+creating /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/install/ar_interface/share/ament_index
+creating /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/install/ar_interface/share/ament_index/resource_index
+creating /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/install/ar_interface/share/ament_index/resource_index/packages
+symbolically linking /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/build/ar_interface/resource/ar_interface -> /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/install/ar_interface/share/ament_index/resource_index/packages
+symbolically linking /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/build/ar_interface/package.xml -> /home/muhie/Desktop/Coursework/EMS628-COURSEWORK/ros2_ws/src/install/ar_interface/share/ar_interface
