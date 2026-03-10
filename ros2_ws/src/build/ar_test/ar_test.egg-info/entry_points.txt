@@ -1,4 +1,5 @@
 [console_scripts]
 cubic_tradjectory_planner = ar_test.cubic_traj_planner:main
 points_generator = ar_test.points_generator:main
+test = ar_test.compute_cubic_coeffs:main
 

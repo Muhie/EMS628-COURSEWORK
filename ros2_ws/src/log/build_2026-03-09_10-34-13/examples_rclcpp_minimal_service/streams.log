@@ -1,0 +1,23 @@
+[1.312s] Invoking command in '/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_service -- -j12 -l12
+[1.538s] [35m[1mConsolidate compiler generated dependencies of target service_main[0m
+[1.793s] [100%] Built target service_main
+[1.927s] Invoked command in '/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_service -- -j12 -l12
+[1.928s] Invoking command in '/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_service
+[1.979s] -- Install configuration: ""
+[1.980s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main
+[1.982s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_service
+[1.984s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_service
+[1.985s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.sh
+[1.986s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.dsv
+[1.987s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.sh
+[1.987s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.dsv
+[1.988s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.bash
+[1.989s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.sh
+[1.990s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.zsh
+[1.990s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.dsv
+[1.991s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.dsv
+[1.991s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/packages/examples_rclcpp_minimal_service
+[1.992s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig.cmake
+[1.993s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig-version.cmake
+[1.993s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.xml
+[2.209s] Invoked command in '/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_service

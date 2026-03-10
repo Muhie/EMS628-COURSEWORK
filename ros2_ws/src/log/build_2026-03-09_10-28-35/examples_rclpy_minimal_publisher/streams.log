@@ -1,0 +1,49 @@
+[2.910s] Invoking command in '/home/muhie/Desktop/coursework/ros2_ws/src/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclpy_minimal_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_minimal_publisher build --build-base /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclpy_minimal_publisher/build install --record /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed install_data
+[4.083s] running egg_info
+[4.084s] creating ../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info
+[4.084s] writing ../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[4.085s] writing dependency_links to ../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[4.086s] writing entry points to ../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[4.086s] writing requirements to ../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[4.086s] writing top-level names to ../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[4.086s] writing manifest file '../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[4.086s] reading manifest file '../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[4.087s] writing manifest file '../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[4.087s] running build
+[4.087s] running build_py
+[4.087s] creating /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclpy_minimal_publisher/build
+[4.088s] creating /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclpy_minimal_publisher/build/lib
+[4.088s] creating /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[4.088s] copying examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[4.088s] copying examples_rclpy_minimal_publisher/publisher_member_function_with_wait_for_all_acked.py -> /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[4.088s] copying examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[4.089s] copying examples_rclpy_minimal_publisher/__init__.py -> /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[4.090s] copying examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[4.090s] running install
+[4.090s] running install_lib
+[4.090s] creating /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[4.091s] copying /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[4.091s] copying /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_member_function_with_wait_for_all_acked.py -> /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[4.091s] copying /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[4.091s] copying /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/__init__.py -> /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[4.091s] copying /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[4.091s] byte-compiling /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[4.092s] byte-compiling /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_member_function_with_wait_for_all_acked.py to publisher_member_function_with_wait_for_all_acked.cpython-310.pyc
+[4.092s] byte-compiling /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_old_school.py to publisher_old_school.cpython-310.pyc
+[4.092s] byte-compiling /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/__init__.py to __init__.cpython-310.pyc
+[4.092s] byte-compiling /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_local_function.py to publisher_local_function.cpython-310.pyc
+[4.092s] running install_data
+[4.092s] creating /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_minimal_publisher/share/ament_index
+[4.093s] creating /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index
+[4.093s] creating /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[4.093s] copying resource/examples_rclpy_minimal_publisher -> /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[4.093s] copying package.xml -> /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_minimal_publisher/share/examples_rclpy_minimal_publisher
+[4.093s] running install_egg_info
+[4.093s] Copying ../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.15.5-py3.10.egg-info
+[4.093s] running install_scripts
+[4.094s] Installing publisher_local_function script to /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[4.094s] Installing publisher_member_function script to /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[4.094s] Installing publisher_member_function_with_wait_for_all_acked script to /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[4.094s] Installing publisher_old_school script to /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[4.094s] writing list of installed files to '/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclpy_minimal_publisher/install.log'
+[4.196s] Invoked command in '/home/muhie/Desktop/coursework/ros2_ws/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclpy_minimal_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_minimal_publisher build --build-base /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclpy_minimal_publisher/build install --record /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed install_data

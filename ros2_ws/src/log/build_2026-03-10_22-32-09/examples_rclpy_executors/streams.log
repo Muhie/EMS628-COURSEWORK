@@ -1,0 +1,26 @@
+[3.229s] Invoking command in '/home/muhie/Desktop/coursework/ros2_ws/src/examples/rclpy/executors': PYTHONPATH=/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/examples_rclpy_executors build --build-base /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclpy_executors/build install --record /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclpy_executors/install.log --single-version-externally-managed install_data
+[3.733s] running egg_info
+[3.734s] writing ../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[3.734s] writing dependency_links to ../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[3.735s] writing entry points to ../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[3.735s] writing requirements to ../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[3.735s] writing top-level names to ../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[3.738s] reading manifest file '../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[3.740s] writing manifest file '../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[3.740s] running build
+[3.740s] running build_py
+[3.741s] running install
+[3.742s] running install_lib
+[3.744s] running install_data
+[3.745s] running install_egg_info
+[3.747s] removing '/home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors-0.15.5-py3.10.egg-info' (and everything under it)
+[3.748s] Copying ../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors-0.15.5-py3.10.egg-info
+[3.750s] running install_scripts
+[3.790s] Installing callback_group script to /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.791s] Installing composed script to /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.791s] Installing custom_callback_group script to /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.791s] Installing custom_executor script to /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.792s] Installing listener script to /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.792s] Installing talker script to /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.793s] writing list of installed files to '/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclpy_executors/install.log'
+[3.963s] Invoked command in '/home/muhie/Desktop/coursework/ros2_ws/src/examples/rclpy/executors' returned '0': PYTHONPATH=/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/examples_rclpy_executors build --build-base /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclpy_executors/build install --record /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclpy_executors/install.log --single-version-externally-managed install_data

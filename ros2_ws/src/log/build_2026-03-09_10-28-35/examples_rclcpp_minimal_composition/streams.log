@@ -1,0 +1,43 @@
+[1.326s] Invoking command in '/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_composition -- -j12 -l12
+[1.495s] [ 11%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[14.016s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+[31.056s] [ 33%] [32m[1mLinking CXX shared library libcomposition_nodes.so[0m
+[31.716s] [ 33%] Built target composition_nodes
+[31.752s] [ 44%] [32mBuilding CXX object CMakeFiles/composition_publisher.dir/src/standalone_publisher.cpp.o[0m
+[35.956s] [ 55%] [32m[1mLinking CXX executable composition_publisher[0m
+[36.220s] [ 55%] Built target composition_publisher
+[36.251s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_composed.dir/src/composed.cpp.o[0m
+[40.633s] [ 77%] [32m[1mLinking CXX executable composition_composed[0m
+[40.880s] [ 77%] Built target composition_composed
+[40.911s] [ 88%] [32mBuilding CXX object CMakeFiles/composition_subscriber.dir/src/standalone_subscriber.cpp.o[0m
+[44.751s] [100%] [32m[1mLinking CXX executable composition_subscriber[0m
+[44.995s] [100%] Built target composition_subscriber
+[45.086s] Invoked command in '/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_composition -- -j12 -l12
+[45.092s] Invoking command in '/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_composition
+[45.103s] -- Install configuration: ""
+[45.103s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[45.103s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[45.104s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[45.122s] -- Set runtime path of "/home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so" to ""
+[45.123s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[45.123s] -- Set runtime path of "/home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher" to ""
+[45.124s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[45.124s] -- Set runtime path of "/home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber" to ""
+[45.125s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[45.125s] -- Set runtime path of "/home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed" to ""
+[45.126s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[45.126s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[45.126s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[45.127s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[45.127s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[45.127s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[45.128s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[45.128s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[45.129s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[45.129s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[45.129s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[45.130s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[45.130s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[45.131s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[45.131s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[45.136s] Invoked command in '/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_composition

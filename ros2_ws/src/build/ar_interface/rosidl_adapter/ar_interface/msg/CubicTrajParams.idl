@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ar_interface/msg/CubicTrajParams.msg
+// generated code does not contain a copyright notice
+
+
+module ar_interface {
+  module msg {
+    struct CubicTrajParams {
+      float p0;
+
+      float pf;
+
+      float v0;
+
+      float vf;
+
+      float t0;
+
+      float tf;
+    };
+  };
+};

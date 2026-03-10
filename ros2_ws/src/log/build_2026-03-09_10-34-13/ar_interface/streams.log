@@ -1,0 +1,20 @@
+[6.234s] Invoking command in '/home/muhie/Desktop/coursework/ros2_ws/src/ar_interface': PYTHONPATH=/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ar_interface build --build-base /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/build install --record /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/install.log --single-version-externally-managed install_data
+[6.803s] running egg_info
+[6.804s] writing ../build/ar_interface/ar_interface.egg-info/PKG-INFO
+[6.805s] writing dependency_links to ../build/ar_interface/ar_interface.egg-info/dependency_links.txt
+[6.806s] writing entry points to ../build/ar_interface/ar_interface.egg-info/entry_points.txt
+[6.809s] writing requirements to ../build/ar_interface/ar_interface.egg-info/requires.txt
+[6.810s] writing top-level names to ../build/ar_interface/ar_interface.egg-info/top_level.txt
+[6.810s] reading manifest file '../build/ar_interface/ar_interface.egg-info/SOURCES.txt'
+[6.811s] writing manifest file '../build/ar_interface/ar_interface.egg-info/SOURCES.txt'
+[6.811s] running build
+[6.812s] running build_py
+[6.812s] running install
+[6.812s] running install_lib
+[6.812s] running install_data
+[6.813s] running install_egg_info
+[6.813s] removing '/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_interface/lib/python3.10/site-packages/ar_interface-0.0.0-py3.10.egg-info' (and everything under it)
+[6.813s] Copying ../build/ar_interface/ar_interface.egg-info to /home/muhie/Desktop/coursework/ros2_ws/src/install/ar_interface/lib/python3.10/site-packages/ar_interface-0.0.0-py3.10.egg-info
+[6.813s] running install_scripts
+[6.837s] writing list of installed files to '/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/install.log'
+[7.394s] Invoked command in '/home/muhie/Desktop/coursework/ros2_ws/src/ar_interface' returned '0': PYTHONPATH=/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ar_interface build --build-base /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/build install --record /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/install.log --single-version-externally-managed install_data

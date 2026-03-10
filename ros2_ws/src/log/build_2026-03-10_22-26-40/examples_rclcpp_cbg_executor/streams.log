@@ -1,0 +1,31 @@
+[0.046s] Invoking command in '/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_cbg_executor -- -j12 -l12
+[0.250s] [ 40%] Built target ping_pong
+[0.286s] [ 70%] Built target pong
+[0.311s] [100%] Built target ping
+[0.387s] Invoked command in '/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_cbg_executor -- -j12 -l12
+[0.392s] Invoking command in '/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_cbg_executor
+[0.491s] -- Install configuration: ""
+[0.492s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping
+[0.492s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong
+[0.492s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong
+[0.493s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_cbg_executor/include
+[0.493s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor
+[0.494s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp
+[0.494s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp
+[0.495s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_cbg_executor
+[0.495s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_cbg_executor
+[0.495s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.sh
+[0.497s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.dsv
+[0.497s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.sh
+[0.498s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.dsv
+[0.498s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.bash
+[0.499s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.sh
+[0.501s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.zsh
+[0.501s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.dsv
+[0.501s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.dsv
+[0.501s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/packages/examples_rclcpp_cbg_executor
+[0.504s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.506s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig.cmake
+[0.506s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig-version.cmake
+[0.506s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.xml
+[0.539s] Invoked command in '/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_cbg_executor

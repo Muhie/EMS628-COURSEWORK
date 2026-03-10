@@ -1,0 +1,40 @@
+[1.328s] Invoking command in '/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_action_client -- -j12 -l12
+[1.511s] [ 12%] [32mBuilding CXX object CMakeFiles/action_client_member_functions.dir/member_functions.cpp.o[0m
+[13.352s] [ 25%] [32m[1mLinking CXX executable action_client_member_functions[0m
+[13.856s] [ 25%] Built target action_client_member_functions
+[13.917s] [ 37%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_feedback.dir/not_composable_with_feedback.cpp.o[0m
+[22.703s] [ 50%] [32m[1mLinking CXX executable action_client_not_composable_with_feedback[0m
+[23.108s] [ 50%] Built target action_client_not_composable_with_feedback
+[23.161s] [ 62%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_cancel.dir/not_composable_with_cancel.cpp.o[0m
+[30.990s] [ 75%] [32m[1mLinking CXX executable action_client_not_composable_with_cancel[0m
+[31.294s] [ 75%] Built target action_client_not_composable_with_cancel
+[31.330s] [ 87%] [32mBuilding CXX object CMakeFiles/action_client_not_composable.dir/not_composable.cpp.o[0m
+[37.204s] [100%] [32m[1mLinking CXX executable action_client_not_composable[0m
+[37.452s] [100%] Built target action_client_not_composable
+[37.504s] Invoked command in '/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_action_client -- -j12 -l12
+[37.507s] Invoking command in '/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_action_client
+[37.518s] -- Install configuration: ""
+[37.519s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_member_functions
+[37.521s] -- Set runtime path of "/home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_member_functions" to ""
+[37.521s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable
+[37.522s] -- Set runtime path of "/home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable" to ""
+[37.523s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_cancel
+[37.524s] -- Set runtime path of "/home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_cancel" to ""
+[37.525s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_feedback
+[37.526s] -- Set runtime path of "/home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_feedback" to ""
+[37.527s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_client
+[37.527s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_client
+[37.528s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.sh
+[37.528s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.dsv
+[37.528s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.sh
+[37.529s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.dsv
+[37.529s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.bash
+[37.529s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.sh
+[37.530s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.zsh
+[37.530s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.dsv
+[37.531s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.dsv
+[37.531s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_client
+[37.532s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig.cmake
+[37.532s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig-version.cmake
+[37.533s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.xml
+[37.537s] Invoked command in '/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_action_client

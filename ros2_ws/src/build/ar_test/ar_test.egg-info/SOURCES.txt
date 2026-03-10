@@ -9,7 +9,9 @@ setup.py
 ../build/ar_test/ar_test.egg-info/top_level.txt
 ../build/ar_test/ar_test.egg-info/zip-safe
 ar_test/__init__.py
+ar_test/compute_cubic_coeffs.py
 ar_test/cubic_traj_planner.py
+ar_test/plot_cubic_traj.py
 ar_test/points_generator.py
 resource/ar_test
 test/test_copyright.py

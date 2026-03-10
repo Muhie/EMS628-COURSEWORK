@@ -1,0 +1,26 @@
+[1.316s] Invoking command in '/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_timer -- -j12 -l12
+[1.762s] [35m[1mConsolidate compiler generated dependencies of target timer_member_function[0m
+[1.765s] [35m[1mConsolidate compiler generated dependencies of target timer_lambda[0m
+[1.765s] [ 50%] Built target timer_member_function
+[1.765s] [100%] Built target timer_lambda
+[1.906s] Invoked command in '/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_timer -- -j12 -l12
+[1.908s] Invoking command in '/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_timer
+[1.934s] -- Install configuration: ""
+[1.937s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+[1.937s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+[1.937s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[1.938s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[1.940s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+[1.945s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv
+[1.946s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+[1.948s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.dsv
+[1.949s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+[1.949s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+[1.950s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+[1.950s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.dsv
+[1.952s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv
+[1.954s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[1.955s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[1.956s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[1.956s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml
+[2.162s] Invoked command in '/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_minimal_timer

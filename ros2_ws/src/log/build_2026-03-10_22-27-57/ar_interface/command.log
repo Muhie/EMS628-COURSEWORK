@@ -1,0 +1,2 @@
+Invoking command in '/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/muhie/Desktop/coursework/ros2_ws/src/ar_interface -DCMAKE_INSTALL_PREFIX=/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_interface
+Invoked command in '/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/muhie/Desktop/coursework/ros2_ws/src/ar_interface -DCMAKE_INSTALL_PREFIX=/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_interface

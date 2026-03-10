@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
             "points_generator = ar_test.points_generator:main",
             "cubic_tradjectory_planner = ar_test.cubic_traj_planner:main",
+            "test = ar_test.compute_cubic_coeffs:main"
         ],
     },
 )

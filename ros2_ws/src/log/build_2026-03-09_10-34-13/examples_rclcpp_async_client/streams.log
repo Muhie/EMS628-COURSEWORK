@@ -1,0 +1,23 @@
+[1.310s] Invoking command in '/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_async_client -- -j12 -l12
+[1.467s] [35m[1mConsolidate compiler generated dependencies of target client_main[0m
+[1.714s] [100%] Built target client_main
+[1.824s] Invoked command in '/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_async_client -- -j12 -l12
+[1.889s] Invoking command in '/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_async_client
+[1.926s] -- Install configuration: ""
+[1.933s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_async_client/lib/examples_rclcpp_async_client/client_main
+[1.933s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_async_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_async_client
+[1.936s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_async_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_async_client
+[1.937s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/ament_prefix_path.sh
+[1.937s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/ament_prefix_path.dsv
+[1.937s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/path.sh
+[1.937s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/path.dsv
+[1.938s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.bash
+[1.938s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.sh
+[1.938s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.zsh
+[1.939s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.dsv
+[1.944s] -- Installing: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.dsv
+[1.945s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_async_client/share/ament_index/resource_index/packages/examples_rclcpp_async_client
+[1.949s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig.cmake
+[1.952s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig-version.cmake
+[1.954s] -- Up-to-date: /home/muhie/Desktop/coursework/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.xml
+[2.018s] Invoked command in '/home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/muhie/Desktop/coursework/ros2_ws/src/build/examples_rclcpp_async_client
