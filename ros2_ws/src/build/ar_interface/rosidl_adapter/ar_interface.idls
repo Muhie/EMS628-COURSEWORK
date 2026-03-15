@@ -1,2 +1,3 @@
 /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_adapter/ar_interface:msg/CubicTrajCoeffs.idl
 /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_adapter/ar_interface:msg/CubicTrajParams.idl
+/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_adapter/ar_interface:srv/ComputeCubicTraj.idl

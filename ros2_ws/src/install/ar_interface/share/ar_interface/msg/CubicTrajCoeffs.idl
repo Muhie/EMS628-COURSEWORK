@@ -6,17 +6,17 @@
 module ar_interface {
   module msg {
     struct CubicTrajCoeffs {
-      float a0;
+      double a0;
 
-      float a1;
+      double a1;
 
-      float a2;
+      double a2;
 
-      float a3;
+      double a3;
 
-      float t0;
+      double t0;
 
-      float tf;
+      double tf;
     };
   };
 };

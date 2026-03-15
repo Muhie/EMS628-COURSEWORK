@@ -2,6 +2,7 @@
   "package_name": "ar_interface",
   "non_idl_tuples": [
     "/home/muhie/Desktop/coursework/ros2_ws/src/ar_interface:msg/CubicTrajCoeffs.msg",
-    "/home/muhie/Desktop/coursework/ros2_ws/src/ar_interface:msg/CubicTrajParams.msg"
+    "/home/muhie/Desktop/coursework/ros2_ws/src/ar_interface:msg/CubicTrajParams.msg",
+    "/home/muhie/Desktop/coursework/ros2_ws/src/ar_interface:srv/ComputeCubicTraj.srv"
   ]
 }

@@ -76,6 +76,11 @@ CMakeFiles/ar_interface__cpp: rosidl_generator_cpp/ar_interface/msg/detail/cubic
 CMakeFiles/ar_interface__cpp: rosidl_generator_cpp/ar_interface/msg/detail/cubic_traj_params__struct.hpp
 CMakeFiles/ar_interface__cpp: rosidl_generator_cpp/ar_interface/msg/detail/cubic_traj_params__traits.hpp
 CMakeFiles/ar_interface__cpp: rosidl_generator_cpp/ar_interface/msg/detail/cubic_traj_params__type_support.hpp
+CMakeFiles/ar_interface__cpp: rosidl_generator_cpp/ar_interface/srv/compute_cubic_traj.hpp
+CMakeFiles/ar_interface__cpp: rosidl_generator_cpp/ar_interface/srv/detail/compute_cubic_traj__builder.hpp
+CMakeFiles/ar_interface__cpp: rosidl_generator_cpp/ar_interface/srv/detail/compute_cubic_traj__struct.hpp
+CMakeFiles/ar_interface__cpp: rosidl_generator_cpp/ar_interface/srv/detail/compute_cubic_traj__traits.hpp
+CMakeFiles/ar_interface__cpp: rosidl_generator_cpp/ar_interface/srv/detail/compute_cubic_traj__type_support.hpp
 CMakeFiles/ar_interface__cpp: rosidl_generator_cpp/ar_interface/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/ar_interface/msg/cubic_traj_coeffs.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -95,6 +100,7 @@ rosidl_generator_cpp/ar_interface/msg/cubic_traj_coeffs.hpp: /opt/ros/humble/sha
 rosidl_generator_cpp/ar_interface/msg/cubic_traj_coeffs.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/ar_interface/msg/cubic_traj_coeffs.hpp: rosidl_adapter/ar_interface/msg/CubicTrajCoeffs.idl
 rosidl_generator_cpp/ar_interface/msg/cubic_traj_coeffs.hpp: rosidl_adapter/ar_interface/msg/CubicTrajParams.idl
+rosidl_generator_cpp/ar_interface/msg/cubic_traj_coeffs.hpp: rosidl_adapter/ar_interface/srv/ComputeCubicTraj.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_generator_cpp__arguments.json
 
@@ -125,6 +131,21 @@ rosidl_generator_cpp/ar_interface/msg/detail/cubic_traj_params__traits.hpp: rosi
 rosidl_generator_cpp/ar_interface/msg/detail/cubic_traj_params__type_support.hpp: rosidl_generator_cpp/ar_interface/msg/cubic_traj_coeffs.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ar_interface/msg/detail/cubic_traj_params__type_support.hpp
 
+rosidl_generator_cpp/ar_interface/srv/compute_cubic_traj.hpp: rosidl_generator_cpp/ar_interface/msg/cubic_traj_coeffs.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ar_interface/srv/compute_cubic_traj.hpp
+
+rosidl_generator_cpp/ar_interface/srv/detail/compute_cubic_traj__builder.hpp: rosidl_generator_cpp/ar_interface/msg/cubic_traj_coeffs.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ar_interface/srv/detail/compute_cubic_traj__builder.hpp
+
+rosidl_generator_cpp/ar_interface/srv/detail/compute_cubic_traj__struct.hpp: rosidl_generator_cpp/ar_interface/msg/cubic_traj_coeffs.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ar_interface/srv/detail/compute_cubic_traj__struct.hpp
+
+rosidl_generator_cpp/ar_interface/srv/detail/compute_cubic_traj__traits.hpp: rosidl_generator_cpp/ar_interface/msg/cubic_traj_coeffs.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ar_interface/srv/detail/compute_cubic_traj__traits.hpp
+
+rosidl_generator_cpp/ar_interface/srv/detail/compute_cubic_traj__type_support.hpp: rosidl_generator_cpp/ar_interface/msg/cubic_traj_coeffs.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ar_interface/srv/detail/compute_cubic_traj__type_support.hpp
+
 ar_interface__cpp: CMakeFiles/ar_interface__cpp
 ar_interface__cpp: rosidl_generator_cpp/ar_interface/msg/cubic_traj_coeffs.hpp
 ar_interface__cpp: rosidl_generator_cpp/ar_interface/msg/cubic_traj_params.hpp
@@ -136,6 +157,11 @@ ar_interface__cpp: rosidl_generator_cpp/ar_interface/msg/detail/cubic_traj_param
 ar_interface__cpp: rosidl_generator_cpp/ar_interface/msg/detail/cubic_traj_params__struct.hpp
 ar_interface__cpp: rosidl_generator_cpp/ar_interface/msg/detail/cubic_traj_params__traits.hpp
 ar_interface__cpp: rosidl_generator_cpp/ar_interface/msg/detail/cubic_traj_params__type_support.hpp
+ar_interface__cpp: rosidl_generator_cpp/ar_interface/srv/compute_cubic_traj.hpp
+ar_interface__cpp: rosidl_generator_cpp/ar_interface/srv/detail/compute_cubic_traj__builder.hpp
+ar_interface__cpp: rosidl_generator_cpp/ar_interface/srv/detail/compute_cubic_traj__struct.hpp
+ar_interface__cpp: rosidl_generator_cpp/ar_interface/srv/detail/compute_cubic_traj__traits.hpp
+ar_interface__cpp: rosidl_generator_cpp/ar_interface/srv/detail/compute_cubic_traj__type_support.hpp
 ar_interface__cpp: CMakeFiles/ar_interface__cpp.dir/build.make
 .PHONY : ar_interface__cpp
 

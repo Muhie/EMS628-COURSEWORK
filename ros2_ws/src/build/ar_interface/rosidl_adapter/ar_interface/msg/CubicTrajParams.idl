@@ -6,17 +6,17 @@
 module ar_interface {
   module msg {
     struct CubicTrajParams {
-      float p0;
+      double p0;
 
-      float pf;
+      double pf;
 
-      float v0;
+      double v0;
 
-      float vf;
+      double vf;
 
-      float t0;
+      double t0;
 
-      float tf;
+      double tf;
     };
   };
 };

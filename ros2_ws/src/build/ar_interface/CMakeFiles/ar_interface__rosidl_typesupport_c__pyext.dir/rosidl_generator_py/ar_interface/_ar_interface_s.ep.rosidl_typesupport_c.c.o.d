@@ -207,4 +207,7 @@ CMakeFiles/ar_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ar_
  /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_generator_c/ar_interface/msg/detail/cubic_traj_coeffs__functions.h \
  /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_generator_c/ar_interface/msg/detail/cubic_traj_params__type_support.h \
  /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_generator_c/ar_interface/msg/detail/cubic_traj_params__struct.h \
- /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_generator_c/ar_interface/msg/detail/cubic_traj_params__functions.h
+ /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_generator_c/ar_interface/msg/detail/cubic_traj_params__functions.h \
+ /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__type_support.h \
+ /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__struct.h \
+ /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__functions.h

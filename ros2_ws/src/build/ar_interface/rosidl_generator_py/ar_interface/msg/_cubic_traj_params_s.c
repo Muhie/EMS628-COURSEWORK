@@ -56,7 +56,7 @@ bool ar_interface__msg__cubic_traj_params__convert_from_py(PyObject * _pymsg, vo
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->p0 = (float)PyFloat_AS_DOUBLE(field);
+    ros_message->p0 = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
   {  // pf
@@ -65,7 +65,7 @@ bool ar_interface__msg__cubic_traj_params__convert_from_py(PyObject * _pymsg, vo
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->pf = (float)PyFloat_AS_DOUBLE(field);
+    ros_message->pf = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
   {  // v0
@@ -74,7 +74,7 @@ bool ar_interface__msg__cubic_traj_params__convert_from_py(PyObject * _pymsg, vo
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->v0 = (float)PyFloat_AS_DOUBLE(field);
+    ros_message->v0 = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
   {  // vf
@@ -83,7 +83,7 @@ bool ar_interface__msg__cubic_traj_params__convert_from_py(PyObject * _pymsg, vo
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->vf = (float)PyFloat_AS_DOUBLE(field);
+    ros_message->vf = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
   {  // t0
@@ -92,7 +92,7 @@ bool ar_interface__msg__cubic_traj_params__convert_from_py(PyObject * _pymsg, vo
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->t0 = (float)PyFloat_AS_DOUBLE(field);
+    ros_message->t0 = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
   {  // tf
@@ -101,7 +101,7 @@ bool ar_interface__msg__cubic_traj_params__convert_from_py(PyObject * _pymsg, vo
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->tf = (float)PyFloat_AS_DOUBLE(field);
+    ros_message->tf = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
 

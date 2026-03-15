@@ -364,11 +364,27 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ar_interface/srv" TYPE FILE FILES "/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_adapter/ar_interface/srv/ComputeCubicTraj.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ar_interface/msg" TYPE FILE FILES "/home/muhie/Desktop/coursework/ros2_ws/src/ar_interface/msg/CubicTrajCoeffs.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ar_interface/msg" TYPE FILE FILES "/home/muhie/Desktop/coursework/ros2_ws/src/ar_interface/msg/CubicTrajParams.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ar_interface/srv" TYPE FILE FILES "/home/muhie/Desktop/coursework/ros2_ws/src/ar_interface/srv/ComputeCubicTraj.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ar_interface/srv" TYPE FILE FILES "/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_cmake/srv/ComputeCubicTraj_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ar_interface/srv" TYPE FILE FILES "/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_cmake/srv/ComputeCubicTraj_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

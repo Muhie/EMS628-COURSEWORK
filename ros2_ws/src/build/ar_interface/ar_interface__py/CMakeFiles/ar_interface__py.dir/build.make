@@ -71,9 +71,12 @@ ar_interface__py/CMakeFiles/ar_interface__py: rosidl_generator_py/ar_interface/_
 ar_interface__py/CMakeFiles/ar_interface__py: rosidl_generator_py/ar_interface/_ar_interface_s.ep.rosidl_typesupport_c.c
 ar_interface__py/CMakeFiles/ar_interface__py: rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs.py
 ar_interface__py/CMakeFiles/ar_interface__py: rosidl_generator_py/ar_interface/msg/_cubic_traj_params.py
+ar_interface__py/CMakeFiles/ar_interface__py: rosidl_generator_py/ar_interface/srv/_compute_cubic_traj.py
 ar_interface__py/CMakeFiles/ar_interface__py: rosidl_generator_py/ar_interface/msg/__init__.py
+ar_interface__py/CMakeFiles/ar_interface__py: rosidl_generator_py/ar_interface/srv/__init__.py
 ar_interface__py/CMakeFiles/ar_interface__py: rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c
 ar_interface__py/CMakeFiles/ar_interface__py: rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c
+ar_interface__py/CMakeFiles/ar_interface__py: rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c
 
 rosidl_generator_py/ar_interface/_ar_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/ar_interface/_ar_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -90,6 +93,7 @@ rosidl_generator_py/ar_interface/_ar_interface_s.ep.rosidl_typesupport_fastrtps_
 rosidl_generator_py/ar_interface/_ar_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/ar_interface/_ar_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/ar_interface/msg/CubicTrajCoeffs.idl
 rosidl_generator_py/ar_interface/_ar_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/ar_interface/msg/CubicTrajParams.idl
+rosidl_generator_py/ar_interface/_ar_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/ar_interface/srv/ComputeCubicTraj.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/ar_interface__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -105,14 +109,23 @@ rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs.py: rosidl_generator_py/
 rosidl_generator_py/ar_interface/msg/_cubic_traj_params.py: rosidl_generator_py/ar_interface/_ar_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ar_interface/msg/_cubic_traj_params.py
 
+rosidl_generator_py/ar_interface/srv/_compute_cubic_traj.py: rosidl_generator_py/ar_interface/_ar_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ar_interface/srv/_compute_cubic_traj.py
+
 rosidl_generator_py/ar_interface/msg/__init__.py: rosidl_generator_py/ar_interface/_ar_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ar_interface/msg/__init__.py
+
+rosidl_generator_py/ar_interface/srv/__init__.py: rosidl_generator_py/ar_interface/_ar_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ar_interface/srv/__init__.py
 
 rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c: rosidl_generator_py/ar_interface/_ar_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c
 
 rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c: rosidl_generator_py/ar_interface/_ar_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c
+
+rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c: rosidl_generator_py/ar_interface/_ar_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c
 
 ar_interface__py: ar_interface__py/CMakeFiles/ar_interface__py
 ar_interface__py: rosidl_generator_py/ar_interface/_ar_interface_s.ep.rosidl_typesupport_c.c
@@ -123,6 +136,9 @@ ar_interface__py: rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs.py
 ar_interface__py: rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c
 ar_interface__py: rosidl_generator_py/ar_interface/msg/_cubic_traj_params.py
 ar_interface__py: rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c
+ar_interface__py: rosidl_generator_py/ar_interface/srv/__init__.py
+ar_interface__py: rosidl_generator_py/ar_interface/srv/_compute_cubic_traj.py
+ar_interface__py: rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c
 ar_interface__py: ar_interface__py/CMakeFiles/ar_interface__py.dir/build.make
 .PHONY : ar_interface__py
 

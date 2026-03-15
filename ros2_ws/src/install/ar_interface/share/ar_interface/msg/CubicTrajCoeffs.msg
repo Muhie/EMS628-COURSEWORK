@@ -1,6 +1,6 @@
-float32 a0
-float32 a1
-float32 a2
-float32 a3
-float32 t0
-float32 tf
+float64 a0
+float64 a1
+float64 a2
+float64 a3
+float64 t0
+float64 tf

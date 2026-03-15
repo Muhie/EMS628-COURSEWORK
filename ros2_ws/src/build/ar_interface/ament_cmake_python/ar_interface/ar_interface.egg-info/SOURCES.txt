@@ -7,3 +7,5 @@ ar_interface.egg-info/top_level.txt
 ar_interface/msg/__init__.py
 ar_interface/msg/_cubic_traj_coeffs.py
 ar_interface/msg/_cubic_traj_params.py
+ar_interface/srv/__init__.py
+ar_interface/srv/_compute_cubic_traj.py

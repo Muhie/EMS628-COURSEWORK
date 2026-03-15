@@ -1,52 +1,54 @@
 #!/usr/bin/env python3
 
-
 import rclpy
 from rclpy.node import Node
 import random
-from std_msgs.msg import Float32MultiArray
-import math
 
+# Import the custom message
+from ar_interface.msg import CubicTrajParams
 
-class MinimalPublisher(Node):
-
+class PointsGenerator(Node):
     def __init__(self):
-        super().__init__('minimal_publisher')
-        self.publisher_ = self.create_publisher(Float32MultiArray, 'topic', 10) # Create topic with a float data type
-        timer_period = 10  # time for each message to be published
+        super().__init__('points_generator')
+        
+        # Publish to the 'cubic_traj_params' topic
+        self.publisher_ = self.create_publisher(CubicTrajParams, 'cubic_traj_params', 10)
+        
+        # Create a timer that fires every 10 seconds
+        timer_period = 10.0  # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
-        self.i = 0 # number of iterations
+        self.get_logger().info("Points Generator Node Started.")
 
     def timer_callback(self):
-        msg = Float32MultiArray()
-        p0 = round(random.uniform(-10, 10), 2)
-        pf = round(random.uniform(-10, 10), 2)
-        v0 = round(random.uniform(-10, 10), 2)
-        vf = round(random.uniform(-10, 10), 2)
-        t0 = 0
-        dt = round(random.uniform(4,8),2)
-        tf = t0 + dt
-        msg.data = [float(p0), float(pf), float(v0), float(vf), float(t0), float(tf)]
+        msg = CubicTrajParams()
+        
+        # Positions and velocities should be within the [-10;+10] range
+        msg.p0 = random.uniform(-10.0, 10.0)
+        msg.pf = random.uniform(-10.0, 10.0)
+        msg.v0 = random.uniform(-10.0, 10.0)
+        msg.vf = random.uniform(-10.0, 10.0)
+        
+        # t0 should always be 0
+        msg.t0 = 0.0
+        
+        # tf should be tf = t0 + dt, with dt a random real (float) number between 4 and 8
+        dt = random.uniform(4.0, 8.0)
+        msg.tf = msg.t0 + dt
+        
+        # Publish the message
         self.publisher_.publish(msg)
-        self.get_logger().info('Publishing')
-        self.i += 1
-
+        self.get_logger().info(f'Publishing: p0={msg.p0:.2f}, pf={msg.pf:.2f}, v0={msg.v0:.2f}, vf={msg.vf:.2f}, t0={msg.t0:.2f}, tf={msg.tf:.2f}')
 
 def main(args=None):
     rclpy.init(args=args)
-
-    minimal_publisher = MinimalPublisher()
-
-    rclpy.spin(minimal_publisher)
-
-    # Destroy the node explicitly
-    # (optional - otherwise it will be done automatically
-    # when the garbage collector destroys the node object)
-    minimal_publisher.destroy_node()
-    rclpy.shutdown()
-
+    points_generator = PointsGenerator()
+    try:
+        rclpy.spin(points_generator)
+    except KeyboardInterrupt:
+        pass
+    finally:
+        points_generator.destroy_node()
+        rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
-
-

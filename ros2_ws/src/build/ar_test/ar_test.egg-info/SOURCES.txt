@@ -13,6 +13,7 @@ ar_test/compute_cubic_coeffs.py
 ar_test/cubic_traj_planner.py
 ar_test/plot_cubic_traj.py
 ar_test/points_generator.py
+launch/cubic_traj_gen.launch.py
 resource/ar_test
 test/test_copyright.py
 test/test_flake8.py

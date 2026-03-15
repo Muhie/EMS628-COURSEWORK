@@ -34,7 +34,7 @@ void ar_interface__msg__CubicTrajParams__rosidl_typesupport_introspection_c__Cub
 static rosidl_typesupport_introspection_c__MessageMember ar_interface__msg__CubicTrajParams__rosidl_typesupport_introspection_c__CubicTrajParams_message_member_array[6] = {
   {
     "p0",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+    rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
@@ -51,7 +51,7 @@ static rosidl_typesupport_introspection_c__MessageMember ar_interface__msg__Cubi
   },
   {
     "pf",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+    rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
@@ -68,7 +68,7 @@ static rosidl_typesupport_introspection_c__MessageMember ar_interface__msg__Cubi
   },
   {
     "v0",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+    rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
@@ -85,7 +85,7 @@ static rosidl_typesupport_introspection_c__MessageMember ar_interface__msg__Cubi
   },
   {
     "vf",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+    rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
@@ -102,7 +102,7 @@ static rosidl_typesupport_introspection_c__MessageMember ar_interface__msg__Cubi
   },
   {
     "t0",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+    rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
@@ -119,7 +119,7 @@ static rosidl_typesupport_introspection_c__MessageMember ar_interface__msg__Cubi
   },
   {
     "tf",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+    rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array

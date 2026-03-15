@@ -68,6 +68,9 @@ include CMakeFiles/ar_interface.dir/progress.make
 
 CMakeFiles/ar_interface: /home/muhie/Desktop/coursework/ros2_ws/src/ar_interface/msg/CubicTrajCoeffs.msg
 CMakeFiles/ar_interface: /home/muhie/Desktop/coursework/ros2_ws/src/ar_interface/msg/CubicTrajParams.msg
+CMakeFiles/ar_interface: /home/muhie/Desktop/coursework/ros2_ws/src/ar_interface/srv/ComputeCubicTraj.srv
+CMakeFiles/ar_interface: rosidl_cmake/srv/ComputeCubicTraj_Request.msg
+CMakeFiles/ar_interface: rosidl_cmake/srv/ComputeCubicTraj_Response.msg
 
 ar_interface: CMakeFiles/ar_interface
 ar_interface: CMakeFiles/ar_interface.dir/build.make

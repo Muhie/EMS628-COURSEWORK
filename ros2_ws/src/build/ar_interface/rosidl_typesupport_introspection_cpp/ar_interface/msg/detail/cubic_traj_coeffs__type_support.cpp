@@ -40,7 +40,7 @@ void CubicTrajCoeffs_fini_function(void * message_memory)
 static const ::rosidl_typesupport_introspection_cpp::MessageMember CubicTrajCoeffs_message_member_array[6] = {
   {
     "a0",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
@@ -57,7 +57,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember CubicTrajCoef
   },
   {
     "a1",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
@@ -74,7 +74,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember CubicTrajCoef
   },
   {
     "a2",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
@@ -91,7 +91,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember CubicTrajCoef
   },
   {
     "a3",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
@@ -108,7 +108,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember CubicTrajCoef
   },
   {
     "t0",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
@@ -125,7 +125,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember CubicTrajCoef
   },
   {
     "tf",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array

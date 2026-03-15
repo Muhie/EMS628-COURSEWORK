@@ -84,6 +84,7 @@ rosidl_generator_c/ar_interface/msg/cubic_traj_coeffs.h: /opt/ros/humble/share/r
 rosidl_generator_c/ar_interface/msg/cubic_traj_coeffs.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/ar_interface/msg/cubic_traj_coeffs.h: rosidl_adapter/ar_interface/msg/CubicTrajCoeffs.idl
 rosidl_generator_c/ar_interface/msg/cubic_traj_coeffs.h: rosidl_adapter/ar_interface/msg/CubicTrajParams.idl
+rosidl_generator_c/ar_interface/msg/cubic_traj_coeffs.h: rosidl_adapter/ar_interface/srv/ComputeCubicTraj.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_generator_c__arguments.json
 
@@ -108,11 +109,26 @@ rosidl_generator_c/ar_interface/msg/detail/cubic_traj_params__struct.h: rosidl_g
 rosidl_generator_c/ar_interface/msg/detail/cubic_traj_params__type_support.h: rosidl_generator_c/ar_interface/msg/cubic_traj_coeffs.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ar_interface/msg/detail/cubic_traj_params__type_support.h
 
+rosidl_generator_c/ar_interface/srv/compute_cubic_traj.h: rosidl_generator_c/ar_interface/msg/cubic_traj_coeffs.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ar_interface/srv/compute_cubic_traj.h
+
+rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__functions.h: rosidl_generator_c/ar_interface/msg/cubic_traj_coeffs.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__functions.h
+
+rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__struct.h: rosidl_generator_c/ar_interface/msg/cubic_traj_coeffs.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__struct.h
+
+rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__type_support.h: rosidl_generator_c/ar_interface/msg/cubic_traj_coeffs.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__type_support.h
+
 rosidl_generator_c/ar_interface/msg/detail/cubic_traj_coeffs__functions.c: rosidl_generator_c/ar_interface/msg/cubic_traj_coeffs.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ar_interface/msg/detail/cubic_traj_coeffs__functions.c
 
 rosidl_generator_c/ar_interface/msg/detail/cubic_traj_params__functions.c: rosidl_generator_c/ar_interface/msg/cubic_traj_coeffs.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ar_interface/msg/detail/cubic_traj_params__functions.c
+
+rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__functions.c: rosidl_generator_c/ar_interface/msg/cubic_traj_coeffs.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__functions.c
 
 CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/msg/detail/cubic_traj_coeffs__functions.c.o: CMakeFiles/ar_interface__rosidl_generator_c.dir/flags.make
 CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/msg/detail/cubic_traj_coeffs__functions.c.o: rosidl_generator_c/ar_interface/msg/detail/cubic_traj_coeffs__functions.c
@@ -142,21 +158,37 @@ CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/msg/detail/cubic_traj_params__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_generator_c/ar_interface/msg/detail/cubic_traj_params__functions.c -o CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/msg/detail/cubic_traj_params__functions.c.s
 
+CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__functions.c.o: CMakeFiles/ar_interface__rosidl_generator_c.dir/flags.make
+CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__functions.c.o: rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__functions.c
+CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__functions.c.o: CMakeFiles/ar_interface__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__functions.c.o -MF CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__functions.c.o.d -o CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__functions.c.o -c /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__functions.c
+
+CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__functions.c > CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__functions.c.i
+
+CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__functions.c -o CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__functions.c.s
+
 # Object files for target ar_interface__rosidl_generator_c
 ar_interface__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/msg/detail/cubic_traj_coeffs__functions.c.o" \
-"CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/msg/detail/cubic_traj_params__functions.c.o"
+"CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/msg/detail/cubic_traj_params__functions.c.o" \
+"CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__functions.c.o"
 
 # External object files for target ar_interface__rosidl_generator_c
 ar_interface__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libar_interface__rosidl_generator_c.so: CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/msg/detail/cubic_traj_coeffs__functions.c.o
 libar_interface__rosidl_generator_c.so: CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/msg/detail/cubic_traj_params__functions.c.o
+libar_interface__rosidl_generator_c.so: CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__functions.c.o
 libar_interface__rosidl_generator_c.so: CMakeFiles/ar_interface__rosidl_generator_c.dir/build.make
 libar_interface__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libar_interface__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libar_interface__rosidl_generator_c.so: CMakeFiles/ar_interface__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libar_interface__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libar_interface__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ar_interface__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -177,6 +209,11 @@ CMakeFiles/ar_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/ar_in
 CMakeFiles/ar_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/ar_interface/msg/detail/cubic_traj_params__functions.h
 CMakeFiles/ar_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/ar_interface/msg/detail/cubic_traj_params__struct.h
 CMakeFiles/ar_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/ar_interface/msg/detail/cubic_traj_params__type_support.h
+CMakeFiles/ar_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/ar_interface/srv/compute_cubic_traj.h
+CMakeFiles/ar_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__functions.c
+CMakeFiles/ar_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__functions.h
+CMakeFiles/ar_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__struct.h
+CMakeFiles/ar_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__type_support.h
 	cd /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/muhie/Desktop/coursework/ros2_ws/src/ar_interface /home/muhie/Desktop/coursework/ros2_ws/src/ar_interface /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/CMakeFiles/ar_interface__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ar_interface__rosidl_generator_c.dir/depend
 

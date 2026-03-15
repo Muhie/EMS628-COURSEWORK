@@ -39,12 +39,12 @@ struct CubicTrajParams_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->p0 = 0.0f;
-      this->pf = 0.0f;
-      this->v0 = 0.0f;
-      this->vf = 0.0f;
-      this->t0 = 0.0f;
-      this->tf = 0.0f;
+      this->p0 = 0.0;
+      this->pf = 0.0;
+      this->v0 = 0.0;
+      this->vf = 0.0;
+      this->t0 = 0.0;
+      this->tf = 0.0;
     }
   }
 
@@ -54,68 +54,68 @@ struct CubicTrajParams_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->p0 = 0.0f;
-      this->pf = 0.0f;
-      this->v0 = 0.0f;
-      this->vf = 0.0f;
-      this->t0 = 0.0f;
-      this->tf = 0.0f;
+      this->p0 = 0.0;
+      this->pf = 0.0;
+      this->v0 = 0.0;
+      this->vf = 0.0;
+      this->t0 = 0.0;
+      this->tf = 0.0;
     }
   }
 
   // field types and members
   using _p0_type =
-    float;
+    double;
   _p0_type p0;
   using _pf_type =
-    float;
+    double;
   _pf_type pf;
   using _v0_type =
-    float;
+    double;
   _v0_type v0;
   using _vf_type =
-    float;
+    double;
   _vf_type vf;
   using _t0_type =
-    float;
+    double;
   _t0_type t0;
   using _tf_type =
-    float;
+    double;
   _tf_type tf;
 
   // setters for named parameter idiom
   Type & set__p0(
-    const float & _arg)
+    const double & _arg)
   {
     this->p0 = _arg;
     return *this;
   }
   Type & set__pf(
-    const float & _arg)
+    const double & _arg)
   {
     this->pf = _arg;
     return *this;
   }
   Type & set__v0(
-    const float & _arg)
+    const double & _arg)
   {
     this->v0 = _arg;
     return *this;
   }
   Type & set__vf(
-    const float & _arg)
+    const double & _arg)
   {
     this->vf = _arg;
     return *this;
   }
   Type & set__t0(
-    const float & _arg)
+    const double & _arg)
   {
     this->t0 = _arg;
     return *this;
   }
   Type & set__tf(
-    const float & _arg)
+    const double & _arg)
   {
     this->tf = _arg;
     return *this;

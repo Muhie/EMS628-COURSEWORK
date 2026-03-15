@@ -66,21 +66,21 @@ class CubicTrajParams(metaclass=Metaclass_CubicTrajParams):
     ]
 
     _fields_and_field_types = {
-        'p0': 'float',
-        'pf': 'float',
-        'v0': 'float',
-        'vf': 'float',
-        't0': 'float',
-        'tf': 'float',
+        'p0': 'double',
+        'pf': 'double',
+        'v0': 'double',
+        'vf': 'double',
+        't0': 'double',
+        'tf': 'double',
     }
 
     SLOT_TYPES = (
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
+        rosidl_parser.definition.BasicType('double'),  # noqa: E501
+        rosidl_parser.definition.BasicType('double'),  # noqa: E501
+        rosidl_parser.definition.BasicType('double'),  # noqa: E501
+        rosidl_parser.definition.BasicType('double'),  # noqa: E501
+        rosidl_parser.definition.BasicType('double'),  # noqa: E501
+        rosidl_parser.definition.BasicType('double'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -153,8 +153,8 @@ class CubicTrajParams(metaclass=Metaclass_CubicTrajParams):
             assert \
                 isinstance(value, float), \
                 "The 'p0' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'p0' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'p0' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._p0 = value
 
     @builtins.property
@@ -168,8 +168,8 @@ class CubicTrajParams(metaclass=Metaclass_CubicTrajParams):
             assert \
                 isinstance(value, float), \
                 "The 'pf' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'pf' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'pf' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._pf = value
 
     @builtins.property
@@ -183,8 +183,8 @@ class CubicTrajParams(metaclass=Metaclass_CubicTrajParams):
             assert \
                 isinstance(value, float), \
                 "The 'v0' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'v0' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'v0' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._v0 = value
 
     @builtins.property
@@ -198,8 +198,8 @@ class CubicTrajParams(metaclass=Metaclass_CubicTrajParams):
             assert \
                 isinstance(value, float), \
                 "The 'vf' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'vf' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'vf' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._vf = value
 
     @builtins.property
@@ -213,8 +213,8 @@ class CubicTrajParams(metaclass=Metaclass_CubicTrajParams):
             assert \
                 isinstance(value, float), \
                 "The 't0' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 't0' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 't0' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._t0 = value
 
     @builtins.property
@@ -228,6 +228,6 @@ class CubicTrajParams(metaclass=Metaclass_CubicTrajParams):
             assert \
                 isinstance(value, float), \
                 "The 'tf' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'tf' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'tf' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._tf = value

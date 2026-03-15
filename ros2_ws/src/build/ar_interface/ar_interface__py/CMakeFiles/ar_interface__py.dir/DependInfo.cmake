@@ -19,6 +19,9 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c" "/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_generator_py/ar_interface/_ar_interface_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_generator_py/ar_interface/msg/_cubic_traj_params.py" "/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_generator_py/ar_interface/_ar_interface_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c" "/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_generator_py/ar_interface/_ar_interface_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_generator_py/ar_interface/srv/__init__.py" "/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_generator_py/ar_interface/_ar_interface_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj.py" "/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_generator_py/ar_interface/_ar_interface_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c" "/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_generator_py/ar_interface/_ar_interface_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

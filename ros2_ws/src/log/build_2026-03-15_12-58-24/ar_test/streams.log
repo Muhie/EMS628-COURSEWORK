@@ -1,0 +1,24 @@
+[0.508s] Invoking command in '/home/muhie/Desktop/coursework/ros2_ws/src/ar_test': AMENT_PREFIX_PATH=/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_interface LD_LIBRARY_PATH=/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_test/lib/python3.10/site-packages:/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_interface/local/lib/python3.10/dist-packages:/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ar_test build --build-base /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_test/build install --record /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_test/install.log --single-version-externally-managed install_data
+[0.697s] running egg_info
+[0.697s] writing ../build/ar_test/ar_test.egg-info/PKG-INFO
+[0.697s] writing dependency_links to ../build/ar_test/ar_test.egg-info/dependency_links.txt
+[0.697s] writing entry points to ../build/ar_test/ar_test.egg-info/entry_points.txt
+[0.698s] writing requirements to ../build/ar_test/ar_test.egg-info/requires.txt
+[0.698s] writing top-level names to ../build/ar_test/ar_test.egg-info/top_level.txt
+[0.699s] reading manifest file '../build/ar_test/ar_test.egg-info/SOURCES.txt'
+[0.699s] writing manifest file '../build/ar_test/ar_test.egg-info/SOURCES.txt'
+[0.700s] running build
+[0.700s] running build_py
+[0.700s] running install
+[0.700s] running install_lib
+[0.701s] running install_data
+[0.701s] running install_egg_info
+[0.702s] removing '/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_test/lib/python3.10/site-packages/ar_test-0.0.0-py3.10.egg-info' (and everything under it)
+[0.703s] Copying ../build/ar_test/ar_test.egg-info to /home/muhie/Desktop/coursework/ros2_ws/src/install/ar_test/lib/python3.10/site-packages/ar_test-0.0.0-py3.10.egg-info
+[0.703s] running install_scripts
+[0.720s] Installing compute_cubic_coeffs script to /home/muhie/Desktop/coursework/ros2_ws/src/install/ar_test/lib/ar_test
+[0.720s] Installing cubic_traj_planner script to /home/muhie/Desktop/coursework/ros2_ws/src/install/ar_test/lib/ar_test
+[0.720s] Installing plot_cubic_traj script to /home/muhie/Desktop/coursework/ros2_ws/src/install/ar_test/lib/ar_test
+[0.720s] Installing points_generator script to /home/muhie/Desktop/coursework/ros2_ws/src/install/ar_test/lib/ar_test
+[0.720s] writing list of installed files to '/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_test/install.log'
+[0.746s] Invoked command in '/home/muhie/Desktop/coursework/ros2_ws/src/ar_test' returned '0': AMENT_PREFIX_PATH=/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_interface LD_LIBRARY_PATH=/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_test/lib/python3.10/site-packages:/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_interface/local/lib/python3.10/dist-packages:/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ar_test build --build-base /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_test/build install --record /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_test/install.log --single-version-externally-managed install_data

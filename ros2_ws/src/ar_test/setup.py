@@ -1,3 +1,4 @@
+import os
 from setuptools import find_packages, setup
 
 package_name = 'ar_test'
@@ -10,6 +11,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        ('share/' + package_name + '/launch', ['launch/cubic_traj_gen.launch.py']),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -20,9 +22,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "points_generator = ar_test.points_generator:main",
-            "cubic_tradjectory_planner = ar_test.cubic_traj_planner:main",
-            "test = ar_test.compute_cubic_coeffs:main"
+            'points_generator = ar_test.points_generator:main',
+            'compute_cubic_coeffs = ar_test.compute_cubic_coeffs:main',
+            'cubic_traj_planner = ar_test.cubic_traj_planner:main',
+            'plot_cubic_traj = ar_test.plot_cubic_traj:main',
         ],
     },
 )

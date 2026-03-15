@@ -10,6 +10,11 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/ar_interface/msg/detail/cubic_traj_params__struct.hpp"
   "rosidl_generator_cpp/ar_interface/msg/detail/cubic_traj_params__traits.hpp"
   "rosidl_generator_cpp/ar_interface/msg/detail/cubic_traj_params__type_support.hpp"
+  "rosidl_generator_cpp/ar_interface/srv/compute_cubic_traj.hpp"
+  "rosidl_generator_cpp/ar_interface/srv/detail/compute_cubic_traj__builder.hpp"
+  "rosidl_generator_cpp/ar_interface/srv/detail/compute_cubic_traj__struct.hpp"
+  "rosidl_generator_cpp/ar_interface/srv/detail/compute_cubic_traj__traits.hpp"
+  "rosidl_generator_cpp/ar_interface/srv/detail/compute_cubic_traj__type_support.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

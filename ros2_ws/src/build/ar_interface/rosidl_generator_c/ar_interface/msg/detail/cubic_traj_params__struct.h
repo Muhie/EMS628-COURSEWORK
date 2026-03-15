@@ -20,12 +20,12 @@ extern "C"
 /// Struct defined in msg/CubicTrajParams in the package ar_interface.
 typedef struct ar_interface__msg__CubicTrajParams
 {
-  float p0;
-  float pf;
-  float v0;
-  float vf;
-  float t0;
-  float tf;
+  double p0;
+  double pf;
+  double v0;
+  double vf;
+  double t0;
+  double tf;
 } ar_interface__msg__CubicTrajParams;
 
 // Struct for a sequence of ar_interface__msg__CubicTrajParams.

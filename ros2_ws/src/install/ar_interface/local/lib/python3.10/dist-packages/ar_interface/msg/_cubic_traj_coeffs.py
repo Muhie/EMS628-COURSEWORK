@@ -66,21 +66,21 @@ class CubicTrajCoeffs(metaclass=Metaclass_CubicTrajCoeffs):
     ]
 
     _fields_and_field_types = {
-        'a0': 'float',
-        'a1': 'float',
-        'a2': 'float',
-        'a3': 'float',
-        't0': 'float',
-        'tf': 'float',
+        'a0': 'double',
+        'a1': 'double',
+        'a2': 'double',
+        'a3': 'double',
+        't0': 'double',
+        'tf': 'double',
     }
 
     SLOT_TYPES = (
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
+        rosidl_parser.definition.BasicType('double'),  # noqa: E501
+        rosidl_parser.definition.BasicType('double'),  # noqa: E501
+        rosidl_parser.definition.BasicType('double'),  # noqa: E501
+        rosidl_parser.definition.BasicType('double'),  # noqa: E501
+        rosidl_parser.definition.BasicType('double'),  # noqa: E501
+        rosidl_parser.definition.BasicType('double'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -153,8 +153,8 @@ class CubicTrajCoeffs(metaclass=Metaclass_CubicTrajCoeffs):
             assert \
                 isinstance(value, float), \
                 "The 'a0' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'a0' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'a0' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._a0 = value
 
     @builtins.property
@@ -168,8 +168,8 @@ class CubicTrajCoeffs(metaclass=Metaclass_CubicTrajCoeffs):
             assert \
                 isinstance(value, float), \
                 "The 'a1' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'a1' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'a1' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._a1 = value
 
     @builtins.property
@@ -183,8 +183,8 @@ class CubicTrajCoeffs(metaclass=Metaclass_CubicTrajCoeffs):
             assert \
                 isinstance(value, float), \
                 "The 'a2' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'a2' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'a2' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._a2 = value
 
     @builtins.property
@@ -198,8 +198,8 @@ class CubicTrajCoeffs(metaclass=Metaclass_CubicTrajCoeffs):
             assert \
                 isinstance(value, float), \
                 "The 'a3' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'a3' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'a3' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._a3 = value
 
     @builtins.property
@@ -213,8 +213,8 @@ class CubicTrajCoeffs(metaclass=Metaclass_CubicTrajCoeffs):
             assert \
                 isinstance(value, float), \
                 "The 't0' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 't0' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 't0' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._t0 = value
 
     @builtins.property
@@ -228,6 +228,6 @@ class CubicTrajCoeffs(metaclass=Metaclass_CubicTrajCoeffs):
             assert \
                 isinstance(value, float), \
                 "The 'tf' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'tf' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'tf' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._tf = value

@@ -79,6 +79,7 @@ rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_coeffs__rosidl_
 rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_coeffs__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em
 rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_coeffs__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/ar_interface/msg/CubicTrajCoeffs.idl
 rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_coeffs__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/ar_interface/msg/CubicTrajParams.idl
+rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_coeffs__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/ar_interface/srv/ComputeCubicTraj.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support for eProsima Fast-RTPS"
 	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c --generator-arguments-file /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_typesupport_fastrtps_c__arguments.json
 
@@ -90,6 +91,12 @@ rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_params__rosidl_
 
 rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_params__type_support_c.cpp: rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_coeffs__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_params__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/ar_interface/srv/detail/compute_cubic_traj__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_coeffs__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/ar_interface/srv/detail/compute_cubic_traj__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/ar_interface/srv/detail/compute_cubic_traj__type_support_c.cpp: rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_coeffs__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/ar_interface/srv/detail/compute_cubic_traj__type_support_c.cpp
 
 CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_coeffs__type_support_c.cpp.o: CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_coeffs__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_coeffs__type_support_c.cpp
@@ -119,16 +126,32 @@ CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fa
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_params__type_support_c.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_params__type_support_c.cpp -o CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_params__type_support_c.cpp.s
 
+CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/srv/detail/compute_cubic_traj__type_support_c.cpp.o: CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/srv/detail/compute_cubic_traj__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/ar_interface/srv/detail/compute_cubic_traj__type_support_c.cpp
+CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/srv/detail/compute_cubic_traj__type_support_c.cpp.o: CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/srv/detail/compute_cubic_traj__type_support_c.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/srv/detail/compute_cubic_traj__type_support_c.cpp.o -MF CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/srv/detail/compute_cubic_traj__type_support_c.cpp.o.d -o CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/srv/detail/compute_cubic_traj__type_support_c.cpp.o -c /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_typesupport_fastrtps_c/ar_interface/srv/detail/compute_cubic_traj__type_support_c.cpp
+
+CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/srv/detail/compute_cubic_traj__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/srv/detail/compute_cubic_traj__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_typesupport_fastrtps_c/ar_interface/srv/detail/compute_cubic_traj__type_support_c.cpp > CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/srv/detail/compute_cubic_traj__type_support_c.cpp.i
+
+CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/srv/detail/compute_cubic_traj__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/srv/detail/compute_cubic_traj__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/rosidl_typesupport_fastrtps_c/ar_interface/srv/detail/compute_cubic_traj__type_support_c.cpp -o CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/srv/detail/compute_cubic_traj__type_support_c.cpp.s
+
 # Object files for target ar_interface__rosidl_typesupport_fastrtps_c
 ar_interface__rosidl_typesupport_fastrtps_c_OBJECTS = \
 "CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_coeffs__type_support_c.cpp.o" \
-"CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_params__type_support_c.cpp.o"
+"CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_params__type_support_c.cpp.o" \
+"CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/srv/detail/compute_cubic_traj__type_support_c.cpp.o"
 
 # External object files for target ar_interface__rosidl_typesupport_fastrtps_c
 ar_interface__rosidl_typesupport_fastrtps_c_EXTERNAL_OBJECTS =
 
 libar_interface__rosidl_typesupport_fastrtps_c.so: CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_coeffs__type_support_c.cpp.o
 libar_interface__rosidl_typesupport_fastrtps_c.so: CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_params__type_support_c.cpp.o
+libar_interface__rosidl_typesupport_fastrtps_c.so: CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/srv/detail/compute_cubic_traj__type_support_c.cpp.o
 libar_interface__rosidl_typesupport_fastrtps_c.so: CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/build.make
 libar_interface__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
 libar_interface__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
@@ -138,7 +161,7 @@ libar_interface__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librmw.so
 libar_interface__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libar_interface__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librcutils.so
 libar_interface__rosidl_typesupport_fastrtps_c.so: CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libar_interface__rosidl_typesupport_fastrtps_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libar_interface__rosidl_typesupport_fastrtps_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +176,8 @@ CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesu
 CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_coeffs__type_support_c.cpp
 CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_params__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_params__type_support_c.cpp
+CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/ar_interface/srv/detail/compute_cubic_traj__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/ar_interface/srv/detail/compute_cubic_traj__type_support_c.cpp
 	cd /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/muhie/Desktop/coursework/ros2_ws/src/ar_interface /home/muhie/Desktop/coursework/ros2_ws/src/ar_interface /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_interface/CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/depend
 
