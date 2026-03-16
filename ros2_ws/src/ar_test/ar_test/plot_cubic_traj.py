@@ -92,16 +92,14 @@ class PlotCubicTraj(Node):
             self.is_active = False
             self.get_logger().info('Trajectory finished.')
 
+# boilerplate code
 def main(args=None):
     rclpy.init(args=args)
     plot_cubic_traj = PlotCubicTraj()
-    try:
-        rclpy.spin(plot_cubic_traj)
-    except KeyboardInterrupt:
-        pass
-    finally:
-        plot_cubic_traj.destroy_node()
-        rclpy.shutdown()
+    rclpy.spin(plot_cubic_traj)
+
+    plot_cubic_traj.destroy_node()
+    rclpy.shutdown()
 
 if __name__ == '__main__':
     main()

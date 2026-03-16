@@ -38,15 +38,11 @@ class ComputeCubicCoeffs(Node):
         # Simplification for t0 = 0 (or operating on delta t)
         a0 = p0
         a1 = v0
-        
-        # Solving the matrix equation for a2 and a3
-        # [dt^2   dt^3 ] [a2] = [pf - p0 - v0*dt]
-        # [2*dt 3*dt^2 ] [a3] = [vf - v0        ]
-        
+
         b1 = pf - p0 - v0*dt
         b2 = vf - v0
         
-        det = (dt**2) * (3*dt**2) - (dt**3) * (2*dt)  # 3*dt^4 - 2*dt^4 = dt^4
+        det = (dt**2) * (3*dt**2) - (dt**3) * (2*dt)  
         
         if det == 0:
             self.get_logger().error("Determinant is zero, cannot solve.")
@@ -67,13 +63,10 @@ class ComputeCubicCoeffs(Node):
 def main(args=None):
     rclpy.init(args=args)
     compute_cubic_coeffs = ComputeCubicCoeffs()
-    try:
-        rclpy.spin(compute_cubic_coeffs)
-    except KeyboardInterrupt:
-        pass
-    finally:
-        compute_cubic_coeffs.destroy_node()
-        rclpy.shutdown()
+    rclpy.spin(compute_cubic_coeffs)
+
+    compute_cubic_coeffs.destroy_node()
+    rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
