@@ -1,0 +1,34 @@
+[0.544s] Invoking command in '/home/muhie/Desktop/coursework/ros2_ws/src/ar_test': AMENT_PREFIX_PATH=/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_interface LD_LIBRARY_PATH=/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_test/lib/python3.10/site-packages:/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_interface/local/lib/python3.10/dist-packages:/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ar_test build --build-base /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_test/build install --record /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_test/install.log --single-version-externally-managed install_data
+[0.732s] running egg_info
+[0.732s] writing ../build/ar_test/ar_test.egg-info/PKG-INFO
+[0.732s] writing dependency_links to ../build/ar_test/ar_test.egg-info/dependency_links.txt
+[0.733s] writing entry points to ../build/ar_test/ar_test.egg-info/entry_points.txt
+[0.733s] writing requirements to ../build/ar_test/ar_test.egg-info/requires.txt
+[0.733s] writing top-level names to ../build/ar_test/ar_test.egg-info/top_level.txt
+[0.734s] reading manifest file '../build/ar_test/ar_test.egg-info/SOURCES.txt'
+[0.735s] writing manifest file '../build/ar_test/ar_test.egg-info/SOURCES.txt'
+[0.735s] running build
+[0.735s] running build_py
+[0.735s] copying ar_test/cubic_traj_planner.py -> /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_test/build/lib/ar_test
+[0.736s] copying ar_test/plot_cubic_traj.py -> /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_test/build/lib/ar_test
+[0.736s] copying ar_test/compute_cubic_coeffs.py -> /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_test/build/lib/ar_test
+[0.736s] running install
+[0.736s] running install_lib
+[0.737s] copying /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_test/build/lib/ar_test/cubic_traj_planner.py -> /home/muhie/Desktop/coursework/ros2_ws/src/install/ar_test/lib/python3.10/site-packages/ar_test
+[0.737s] copying /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_test/build/lib/ar_test/plot_cubic_traj.py -> /home/muhie/Desktop/coursework/ros2_ws/src/install/ar_test/lib/python3.10/site-packages/ar_test
+[0.737s] copying /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_test/build/lib/ar_test/compute_cubic_coeffs.py -> /home/muhie/Desktop/coursework/ros2_ws/src/install/ar_test/lib/python3.10/site-packages/ar_test
+[0.738s] byte-compiling /home/muhie/Desktop/coursework/ros2_ws/src/install/ar_test/lib/python3.10/site-packages/ar_test/cubic_traj_planner.py to cubic_traj_planner.cpython-310.pyc
+[0.739s] byte-compiling /home/muhie/Desktop/coursework/ros2_ws/src/install/ar_test/lib/python3.10/site-packages/ar_test/plot_cubic_traj.py to plot_cubic_traj.cpython-310.pyc
+[0.740s] byte-compiling /home/muhie/Desktop/coursework/ros2_ws/src/install/ar_test/lib/python3.10/site-packages/ar_test/compute_cubic_coeffs.py to compute_cubic_coeffs.cpython-310.pyc
+[0.740s] running install_data
+[0.741s] copying package.xml -> /home/muhie/Desktop/coursework/ros2_ws/src/install/ar_test/share/ar_test
+[0.741s] running install_egg_info
+[0.742s] removing '/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_test/lib/python3.10/site-packages/ar_test-0.0.0-py3.10.egg-info' (and everything under it)
+[0.742s] Copying ../build/ar_test/ar_test.egg-info to /home/muhie/Desktop/coursework/ros2_ws/src/install/ar_test/lib/python3.10/site-packages/ar_test-0.0.0-py3.10.egg-info
+[0.743s] running install_scripts
+[0.759s] Installing compute_cubic_coeffs script to /home/muhie/Desktop/coursework/ros2_ws/src/install/ar_test/lib/ar_test
+[0.759s] Installing cubic_traj_planner script to /home/muhie/Desktop/coursework/ros2_ws/src/install/ar_test/lib/ar_test
+[0.759s] Installing plot_cubic_traj script to /home/muhie/Desktop/coursework/ros2_ws/src/install/ar_test/lib/ar_test
+[0.760s] Installing points_generator script to /home/muhie/Desktop/coursework/ros2_ws/src/install/ar_test/lib/ar_test
+[0.760s] writing list of installed files to '/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_test/install.log'
+[0.779s] Invoked command in '/home/muhie/Desktop/coursework/ros2_ws/src/ar_test' returned '0': AMENT_PREFIX_PATH=/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_interface LD_LIBRARY_PATH=/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/muhie/Desktop/coursework/ros2_ws/src/build/ar_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_test/lib/python3.10/site-packages:/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_interface/local/lib/python3.10/dist-packages:/home/muhie/Desktop/coursework/ros2_ws/src/install/ar_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ar_test build --build-base /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_test/build install --record /home/muhie/Desktop/coursework/ros2_ws/src/build/ar_test/install.log --single-version-externally-managed install_data

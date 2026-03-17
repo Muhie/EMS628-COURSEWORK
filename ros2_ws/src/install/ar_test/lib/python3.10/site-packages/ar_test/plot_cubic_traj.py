@@ -38,12 +38,12 @@ class PlotCubicTraj(Node):
         self.dt = 1
         self.timer = self.create_timer(self.dt, self.timer_callback)
         
-        self.get_logger().info("Plot Cubic Traj Node Started.")
+        self.get_logger().info("plot cubic traj node started.")
 
     def coeffs_callback(self, msg):
-        self.get_logger().info(f'Starting new trajectory simulation...')
+        self.get_logger().info(f'starting new trajectory simulation')
         
-        # Load the coefficients
+        # grab the coefficients
         self.a0 = msg.a0
         self.a1 = msg.a1
         self.a2 = msg.a2
@@ -52,7 +52,7 @@ class PlotCubicTraj(Node):
         self.t0 = msg.t0
         self.tf = msg.tf
         
-        # Reset the current time and activate simulation
+        # reset the current time and activate simulation
         self.current_t = 0.0
         self.is_active = True
 
@@ -60,8 +60,7 @@ class PlotCubicTraj(Node):
         if not self.is_active:
             return
             
-        # The equation for cubic polynomial is based on relative time (from 0 to tf-t0)
-        # since t0 is always 0 based on coursework instructions point 1.
+        # using derivative rules to find position, velocity and acceleration eg. 
         # p(t) = a0 + a1*t + a2*t^2 + a3*t^3
         # v(t) = a1 + 2*a2*t + 3*a3*t^2
         # a(t) = 2*a2 + 6*a3*t
@@ -86,11 +85,7 @@ class PlotCubicTraj(Node):
         # increment time
         self.current_t += self.dt
         
-        # stop simulation if we have reached the final time
-        # expected_duration = self.tf - self.t0
-        # if self.current_t > expected_duration:
-        #     self.is_active = False
-        #     self.get_logger().info('Trajectory finished.')
+
 
 # boilerplate code
 def main(args=None):

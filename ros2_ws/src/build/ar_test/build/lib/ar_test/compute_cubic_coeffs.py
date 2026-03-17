@@ -12,7 +12,7 @@ class ComputeCubicCoeffs(Node):
         
         # create a service 
         self.srv = self.create_service(ComputeCubicTraj, 'compute_cubic_traj', self.compute_cubic_traj_callback)
-        self.get_logger().info('TEST')
+        self.get_logger().info('computing cubic coefficients node started')
 
     def compute_cubic_traj_callback(self, request, response):
         """
@@ -28,7 +28,7 @@ class ComputeCubicCoeffs(Node):
         t0 = request.t0
         tf = request.tf
         
-        # We assume t0 = 0. If it wasn't, we'd shift the time dt = tf - t0
+        
         dt = tf - t0
         
         a0 = p0
@@ -44,7 +44,8 @@ class ComputeCubicCoeffs(Node):
         self.get_logger().info(f'Computed Coeffs: a0={a0:.2f}, a1={a1:.2f}, a2={a2:.2f}, a3={a3:.2f}')
         
         return response
-
+    
+# boilerplate code
 def main(args=None):
     rclpy.init(args=args)
     compute_cubic_coeffs = ComputeCubicCoeffs()

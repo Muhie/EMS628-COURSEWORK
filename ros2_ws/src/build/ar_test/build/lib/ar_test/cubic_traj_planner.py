@@ -3,11 +3,11 @@
 import rclpy
 from rclpy.node import Node
 
-# Import the custom messages
+# import the custom messages
 from ar_interface.msg import CubicTrajParams
 from ar_interface.msg import CubicTrajCoeffs
 
-# Import the custom service
+# import the custom service
 from ar_interface.srv import ComputeCubicTraj
 
 class CubicTrajPlanner(Node):
@@ -21,18 +21,20 @@ class CubicTrajPlanner(Node):
             self.params_callback,
             10)
             
-        # create for the cubic tradj topic
+        # create for the cubic traj topic
         self.publisher_ = self.create_publisher(CubicTrajCoeffs, 'cubic_traj_coeffs', 10)
         
-        # Client for the compute cubic tradj  service
+        # client for the compute cubic traj  service
         self.client = self.create_client(ComputeCubicTraj, 'compute_cubic_traj')
         while not self.client.wait_for_service(timeout_sec=1.0):
-            self.get_logger().info('compute_cubic_traj service not available, waiting again...')
+            self.get_logger().info('service not available')
             
-        self.get_logger().info("Cubic Traj Planner Node Started.")
+        self.get_logger().info("cubic traj planner node started.")
 
     def params_callback(self, msg):
-        self.get_logger().info(f'Received Params: p0={msg.p0:.2f}, pf={msg.pf:.2f}, v0={msg.v0:.2f}, vf={msg.vf:.2f}, t0={msg.t0:.2f}, tf={msg.tf:.2f}')
+        """a method used  to parse the parameters """
+
+        self.get_logger().info(f'received params: p0={msg.p0:.2f} pf={msg.pf:.2f} v0={msg.v0:.2f} vf={msg.vf:.2f} t0={msg.t0:.2f} tf={msg.tf:.2f}')
         
         # get the service request ready
         request = ComputeCubicTraj.Request()
@@ -43,7 +45,7 @@ class CubicTrajPlanner(Node):
         request.t0 = msg.t0
         request.tf = msg.tf
         
-        # call the service using async
+        # call the service using the async method
         future = self.client.call_async(request)
         future.add_done_callback(lambda future: self.service_response_callback(future, msg.t0, msg.tf))
 
@@ -59,10 +61,10 @@ class CubicTrajPlanner(Node):
         msg.tf = tf
         
         self.publisher_.publish(msg)
-        self.get_logger().info(f'Published Coeffs: a0={msg.a0:.2f}, a1={msg.a1:.2f}, a2={msg.a2:.2f}, a3={msg.a3:.2f}')
+        self.get_logger().info(f'published coeffs: a0={msg.a0:.2f} a1={msg.a1:.2f} a2={msg.a2:.2f} a3={msg.a3:.2f}')
 
 
-
+# boilerplate code
 def main(args=None):
     rclpy.init(args=args)
     node = CubicTrajPlanner()
