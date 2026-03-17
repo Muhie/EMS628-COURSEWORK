@@ -1,6 +1,7 @@
 ### EMS628U COURSEWORK - Muhie Al Haimus
 
 File directory structure
+```bash
 ar_test:
   ├── ar_test
   │   ├── compute_cubic_coeffs.py
@@ -107,7 +108,8 @@ ar_test:
       ├── test_copyright.py
       ├── test_flake8.py
       └── test_pep257.py
-
+```
+```bash
 ar_interface:
   ├── CMakeLists.txt
   ├── include
@@ -120,3 +122,4 @@ ar_interface:
   ├── src
   └── srv
       └── ComputeCubicTraj.srv
+```
