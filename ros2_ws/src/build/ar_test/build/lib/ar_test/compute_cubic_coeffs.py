@@ -10,7 +10,7 @@ class ComputeCubicCoeffs(Node):
     def __init__(self):
         super().__init__('compute_cubic_coeffs')
         
-        # create a service server
+        # create a service 
         self.srv = self.create_service(ComputeCubicTraj, 'compute_cubic_traj', self.compute_cubic_traj_callback)
         self.get_logger().info('TEST')
 
@@ -20,7 +20,7 @@ class ComputeCubicCoeffs(Node):
         """
         self.get_logger().info(f'Received Request: p0={request.p0:.2f}, pf={request.pf:.2f}, v0={request.v0:.2f}, vf={request.vf:.2f}, t0={request.t0:.2f}, tf={request.tf:.2f}')
         
-        # Extract inputs
+        # Get the requests 
         p0 = request.p0
         pf = request.pf
         v0 = request.v0
@@ -31,25 +31,10 @@ class ComputeCubicCoeffs(Node):
         # We assume t0 = 0. If it wasn't, we'd shift the time dt = tf - t0
         dt = tf - t0
         
-        if dt <= 0:
-            self.get_logger().error("Error: tf must be greater than t0")
-            return response
-
-        # Simplification for t0 = 0 (or operating on delta t)
         a0 = p0
         a1 = v0
-
-        b1 = pf - p0 - v0*dt
-        b2 = vf - v0
-        
-        det = (dt**2) * (3*dt**2) - (dt**3) * (2*dt)  
-        
-        if det == 0:
-            self.get_logger().error("Determinant is zero, cannot solve.")
-            return response
-            
-        a2 = ( (3*dt**2)*b1 - (dt**3)*b2 ) / det
-        a3 = ( -(2*dt)*b1 + (dt**2)*b2 ) / det
+        a2 = (3 * (pf - p0 - v0 * dt) - vf * dt) / (dt ** 2)
+        a3 = (vf * dt - 2 * (pf - p0 - v0 * dt)) / (dt ** 3)
         
         response.a0 = a0
         response.a1 = a1
@@ -64,7 +49,6 @@ def main(args=None):
     rclpy.init(args=args)
     compute_cubic_coeffs = ComputeCubicCoeffs()
     rclpy.spin(compute_cubic_coeffs)
-
     compute_cubic_coeffs.destroy_node()
     rclpy.shutdown()
 

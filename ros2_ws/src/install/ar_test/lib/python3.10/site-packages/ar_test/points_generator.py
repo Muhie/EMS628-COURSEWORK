@@ -11,7 +11,7 @@ class PointsGenerator(Node):
     def __init__(self):
         super().__init__('points_generator')
         
-        # publish to the 'cubic_traj_params' topic
+        # publish to the cubic traj params topic
         self.publisher_ = self.create_publisher(CubicTrajParams, 'cubic_traj_params', 10)
         
         # create a timer that fires every 10 seconds
