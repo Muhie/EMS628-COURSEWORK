@@ -1,5 +1,25 @@
 ### EMS628U COURSEWORK - Muhie Al Haimus
 
+## Learning objective: Familiarise myself with ROS2 with its plethora of tools and architecture, nodes, topics, publishers, subscribers, services, messages and actions. 
+
+## Prerequisites
+
+### ros2 humble with Ubuntu 22.04 or similar. 
+
+
+## Installation & Testing:
+
+### Step 1: clone this git repository.
+
+### Step 2: run ```colcon build``` to build the packages ```ar_interface``` and ```ar_test```.
+
+### Step 3: cd into ```ros2_ws/src``` and source the package by running ```source install/setup.bash``` (if using a bashlike terminal)
+
+### Step 4: run the project using the launch file ```ros2 launch ar_test cubic_traj_gen.launch.py```
+
+
+
+
 File directory structure
 ```bash
 ar_test:
