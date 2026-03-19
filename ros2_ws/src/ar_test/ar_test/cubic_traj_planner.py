@@ -26,9 +26,8 @@ class CubicTrajPlanner(Node):
         
         # client for the compute cubic traj  service
         self.client = self.create_client(ComputeCubicTraj, 'compute_cubic_traj')
-        while not self.client.wait_for_service(timeout_sec=1.0):
-            self.get_logger().info('service not available')
-            
+
+        # output to the terminal that the node has started
         self.get_logger().info("cubic traj planner node started.")
 
     def params_callback(self, msg):

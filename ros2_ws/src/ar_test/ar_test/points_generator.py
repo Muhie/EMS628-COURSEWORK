@@ -17,9 +17,11 @@ class PointsGenerator(Node):
         # create a timer that fires every 10 seconds
         timer_period = 10.0  # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
+        # output that the node has started
         self.get_logger().info("Points Generator Node Started.")
 
     def timer_callback(self):
+        # instantiate custom message object
         msg = CubicTrajParams()
         
         # positions and velocities should be within the -10 and 10 range

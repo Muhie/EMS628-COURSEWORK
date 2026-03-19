@@ -11,7 +11,7 @@ class PlotCubicTraj(Node):
     def __init__(self):
         super().__init__('plot_cubic_traj')
         
-        # subscribe to the 'cubic_traj_coeffs' topic
+        # subscribe to the cubic traj coeffs  topic
         self.subscription = self.create_subscription(
             CubicTrajCoeffs,
             'cubic_traj_coeffs',
@@ -37,7 +37,7 @@ class PlotCubicTraj(Node):
         # 1 Hz
         self.dt = 1
         self.timer = self.create_timer(self.dt, self.timer_callback)
-        
+        # output that the node has started
         self.get_logger().info("plot cubic traj node started.")
 
     def coeffs_callback(self, msg):
@@ -61,9 +61,9 @@ class PlotCubicTraj(Node):
             return
             
         # using derivative rules to find position, velocity and acceleration eg. 
-        # p(t) = a0 + a1*t + a2*t^2 + a3*t^3
-        # v(t) = a1 + 2*a2*t + 3*a3*t^2
-        # a(t) = 2*a2 + 6*a3*t
+        # p(t)=a0 + a1*t + a2*t^2 + a3*t^3
+        # v(t)=a1 + 2*a2*t + 3*a3*t^2
+        # a(t)=2*a2 + 6*a3*t
         
         t = self.current_t
         

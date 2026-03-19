@@ -18,9 +18,11 @@ class ComputeCubicCoeffs(Node):
         """
         Calculates the coefficients of a cubic polynomial trajectory.
         """
-        self.get_logger().info(f'Received Request: p0={request.p0:.2f}, pf={request.pf:.2f}, v0={request.v0:.2f}, vf={request.vf:.2f}, t0={request.t0:.2f}, tf={request.tf:.2f}')
+
+        # output request to the terminal
+        self.get_logger().info(f'received request: p0={request.p0:.2f} pf={request.pf:.2f} v0={request.v0:.2f} vf={request.vf:.2f} t0={request.t0:.2f} tf={request.tf:.2f}')
         
-        # Get the requests 
+        # get the requests 
         p0 = request.p0
         pf = request.pf
         v0 = request.v0
