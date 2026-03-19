@@ -1,0 +1,27 @@
+[0.549s] Invoking command in '/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/src/ar_test': PYTHONPATH=/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/build/ar_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ar_test build --build-base /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/build/ar_test/build install --record /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/build/ar_test/install.log --single-version-externally-managed install_data
+[0.749s] running egg_info
+[0.749s] writing ../../build/ar_test/ar_test.egg-info/PKG-INFO
+[0.749s] writing dependency_links to ../../build/ar_test/ar_test.egg-info/dependency_links.txt
+[0.749s] writing entry points to ../../build/ar_test/ar_test.egg-info/entry_points.txt
+[0.750s] writing requirements to ../../build/ar_test/ar_test.egg-info/requires.txt
+[0.750s] writing top-level names to ../../build/ar_test/ar_test.egg-info/top_level.txt
+[0.751s] reading manifest file '../../build/ar_test/ar_test.egg-info/SOURCES.txt'
+[0.752s] writing manifest file '../../build/ar_test/ar_test.egg-info/SOURCES.txt'
+[0.752s] running build
+[0.752s] running build_py
+[0.752s] copying ar_test/plot_cubic_traj.py -> /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/build/ar_test/build/lib/ar_test
+[0.753s] running install
+[0.753s] running install_lib
+[0.754s] copying /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/build/ar_test/build/lib/ar_test/plot_cubic_traj.py -> /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_test/lib/python3.10/site-packages/ar_test
+[0.754s] byte-compiling /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_test/lib/python3.10/site-packages/ar_test/plot_cubic_traj.py to plot_cubic_traj.cpython-310.pyc
+[0.755s] running install_data
+[0.755s] running install_egg_info
+[0.757s] removing '/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_test/lib/python3.10/site-packages/ar_test-0.0.0-py3.10.egg-info' (and everything under it)
+[0.757s] Copying ../../build/ar_test/ar_test.egg-info to /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_test/lib/python3.10/site-packages/ar_test-0.0.0-py3.10.egg-info
+[0.758s] running install_scripts
+[0.776s] Installing compute_cubic_coeffs script to /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_test/lib/ar_test
+[0.776s] Installing cubic_traj_planner script to /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_test/lib/ar_test
+[0.776s] Installing plot_cubic_traj script to /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_test/lib/ar_test
+[0.776s] Installing points_generator script to /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_test/lib/ar_test
+[0.777s] writing list of installed files to '/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/build/ar_test/install.log'
+[0.797s] Invoked command in '/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/src/ar_test' returned '0': PYTHONPATH=/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/build/ar_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ar_test build --build-base /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/build/ar_test/build install --record /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/build/ar_test/install.log --single-version-externally-managed install_data

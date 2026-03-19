@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1024a53cb10143c7aa7f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "ar_interface__py",
+					"jsonFile" : "directory-ar_interface__py-5e7c76d42b66a50f5b2e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/build/ar_interface/ar_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ar_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ar_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ar_interface_egg-431e35e74a2625e5be83.json",
+					"name" : "ament_cmake_python_build_ar_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ar_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ar_interface-61c7c65329b7f148f4ea.json",
+					"name" : "ament_cmake_python_copy_ar_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ar_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ar_interface-f8f4c607c46516a73896.json",
+					"name" : "ar_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ar_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ar_interface__cpp-84dc57fa2f9804279ddd.json",
+					"name" : "ar_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ar_interface__py::@f29c7d62d7ff69c713bf",
+					"jsonFile" : "target-ar_interface__py-49a46a1856ad9219c45b.json",
+					"name" : "ar_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ar_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ar_interface__rosidl_generator_c-22a165be3e9d4d4a500a.json",
+					"name" : "ar_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ar_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ar_interface__rosidl_generator_py-1ae6613d9cf67ed5f9d4.json",
+					"name" : "ar_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ar_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ar_interface__rosidl_typesupport_c-858086b017f0b7a5898e.json",
+					"name" : "ar_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ar_interface__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ar_interface__rosidl_typesupport_c__pyext-b722f0dcfaaad4cc14e2.json",
+					"name" : "ar_interface__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ar_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ar_interface__rosidl_typesupport_cpp-349f793b447a8c11906f.json",
+					"name" : "ar_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ar_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ar_interface__rosidl_typesupport_fastrtps_c-a64ab2b4bd30e97308b5.json",
+					"name" : "ar_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ar_interface__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ar_interface__rosidl_typesupport_fastrtps_c__pyext-4c64c051b5458bec18e3.json",
+					"name" : "ar_interface__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ar_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ar_interface__rosidl_typesupport_fastrtps_cpp-0e458053607e648d7011.json",
+					"name" : "ar_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ar_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ar_interface__rosidl_typesupport_introspection_c-bb53c75598b19b450c20.json",
+					"name" : "ar_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ar_interface__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ar_interface__rosidl_typesupport_introspection_c__pyext-f9e62c70a5e61504c598.json",
+					"name" : "ar_interface__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ar_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ar_interface__rosidl_typesupport_introspection_cpp-bdf6b6441375c5cc2f91.json",
+					"name" : "ar_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ar_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ar_interface_uninstall-8232298012e422f7a950.json",
+					"name" : "ar_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-06cbad5aeb7a05281740.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/build/ar_interface",
+		"source" : "/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/src/ar_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

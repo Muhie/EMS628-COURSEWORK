@@ -1,0 +1,304 @@
+[0.010s] Invoking command in '/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/build/ar_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/src/ar_interface -DCMAKE_INSTALL_PREFIX=/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface
+[0.129s] -- The C compiler identification is GNU 11.4.0
+[0.241s] -- The CXX compiler identification is GNU 11.4.0
+[0.252s] -- Detecting C compiler ABI info
+[0.361s] -- Detecting C compiler ABI info - done
+[0.370s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.371s] -- Detecting C compile features
+[0.371s] -- Detecting C compile features - done
+[0.374s] -- Detecting CXX compiler ABI info
+[0.464s] -- Detecting CXX compiler ABI info - done
+[0.470s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.470s] -- Detecting CXX compile features
+[0.471s] -- Detecting CXX compile features - done
+[0.477s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.638s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.741s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.809s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.814s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.821s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.864s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.084s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.247s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.472s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.492s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.493s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.518s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.518s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.518s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.518s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.537s] -- Found PythonExtra: .so  
+[1.568s] -- Added test 'lint_cmake' to check CMake code style
+[1.570s] -- Added test 'xmllint' to check XML markup files
+[1.577s] -- Configuring done
+[1.607s] -- Generating done
+[1.618s] -- Build files have been written to: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/build/ar_interface
+[1.628s] Invoked command in '/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/build/ar_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/src/ar_interface -DCMAKE_INSTALL_PREFIX=/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface
+[1.631s] Invoking command in '/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/build/ar_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/build/ar_interface -- -j12 -l12
+[1.667s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.676s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.686s] [  4%] Built target ament_cmake_python_copy_ar_interface
+[1.945s] running egg_info
+[1.946s] creating ar_interface.egg-info
+[1.946s] writing ar_interface.egg-info/PKG-INFO
+[1.946s] writing dependency_links to ar_interface.egg-info/dependency_links.txt
+[1.947s] writing top-level names to ar_interface.egg-info/top_level.txt
+[1.947s] writing manifest file 'ar_interface.egg-info/SOURCES.txt'
+[1.949s] reading manifest file 'ar_interface.egg-info/SOURCES.txt'
+[1.949s] writing manifest file 'ar_interface.egg-info/SOURCES.txt'
+[1.978s] [  4%] Built target ament_cmake_python_build_ar_interface_egg
+[2.078s] [  8%] [32mBuilding C object CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/msg/detail/cubic_traj_params__functions.c.o[0m
+[2.079s] [  8%] [32mBuilding C object CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/msg/detail/cubic_traj_coeffs__functions.c.o[0m
+[2.079s] [  8%] Built target ar_interface__cpp
+[2.080s] [ 10%] [32mBuilding C object CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__functions.c.o[0m
+[2.092s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.092s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.094s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.164s] [ 19%] [32m[1mLinking C shared library libar_interface__rosidl_generator_c.so[0m
+[2.208s] [ 19%] Built target ar_interface__rosidl_generator_c
+[2.223s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.223s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.223s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.487s] [ 29%] [32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ar_interface/msg/detail/cubic_traj_params__type_support.cpp.o[0m
+[2.487s] [ 29%] [32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ar_interface/msg/detail/cubic_traj_coeffs__type_support.cpp.o[0m
+[2.489s] [ 31%] [32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ar_interface/srv/detail/compute_cubic_traj__type_support.cpp.o[0m
+[2.535s] [ 34%] [32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ar_interface/msg/cubic_traj_params__type_support.cpp.o[0m
+[2.536s] [ 36%] [32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ar_interface/msg/cubic_traj_coeffs__type_support.cpp.o[0m
+[2.538s] [ 38%] [32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ar_interface/srv/compute_cubic_traj__type_support.cpp.o[0m
+[2.556s] [ 42%] [32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ar_interface/msg/detail/dds_fastrtps/cubic_traj_params__type_support.cpp.o[0m
+[2.556s] [ 42%] [32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ar_interface/msg/detail/dds_fastrtps/cubic_traj_coeffs__type_support.cpp.o[0m
+[2.559s] [ 44%] [32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ar_interface/srv/detail/dds_fastrtps/compute_cubic_traj__type_support.cpp.o[0m
+[2.679s] [ 46%] [32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/ar_interface/msg/cubic_traj_coeffs__type_support.cpp.o[0m
+[2.798s] [ 48%] [32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/ar_interface/msg/cubic_traj_params__type_support.cpp.o[0m
+[2.881s] [ 51%] [32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/ar_interface/srv/compute_cubic_traj__type_support.cpp.o[0m
+[2.892s] [ 53%] [32mBuilding C object CMakeFiles/ar_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ar_interface/msg/detail/cubic_traj_coeffs__type_support.c.o[0m
+[2.954s] [ 55%] [32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_coeffs__type_support_c.cpp.o[0m
+[3.029s] [ 57%] [32m[1mLinking CXX shared library libar_interface__rosidl_typesupport_c.so[0m
+[3.133s] [ 59%] [32mBuilding C object CMakeFiles/ar_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ar_interface/msg/detail/cubic_traj_params__type_support.c.o[0m
+[3.144s] [ 61%] [32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_params__type_support_c.cpp.o[0m
+[3.168s] [ 61%] Built target ar_interface__rosidl_typesupport_c
+[3.183s] [ 63%] [32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/srv/detail/compute_cubic_traj__type_support_c.cpp.o[0m
+[3.190s] [ 65%] [32m[1mLinking CXX shared library libar_interface__rosidl_typesupport_cpp.so[0m
+[3.206s] [ 68%] [32mBuilding C object CMakeFiles/ar_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ar_interface/srv/detail/compute_cubic_traj__type_support.c.o[0m
+[3.275s] [ 70%] [32m[1mLinking C shared library libar_interface__rosidl_typesupport_introspection_c.so[0m
+[3.280s] [ 70%] Built target ar_interface__rosidl_typesupport_cpp
+[3.348s] [ 70%] Built target ar_interface__rosidl_typesupport_introspection_c
+[3.364s] [ 72%] [32m[1mLinking CXX shared library libar_interface__rosidl_typesupport_introspection_cpp.so[0m
+[3.365s] [ 74%] [32m[1mLinking CXX shared library libar_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.417s] [ 74%] Built target ar_interface__rosidl_typesupport_introspection_cpp
+[3.467s] [ 74%] Built target ar_interface__rosidl_typesupport_fastrtps_cpp
+[3.578s] [ 76%] [32m[1mLinking CXX shared library libar_interface__rosidl_typesupport_fastrtps_c.so[0m
+[3.645s] [ 76%] Built target ar_interface__rosidl_typesupport_fastrtps_c
+[3.662s] [ 76%] Built target ar_interface
+[3.679s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.104s] [ 78%] Built target ar_interface__py
+[4.136s] [ 85%] [32mBuilding C object CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c.o[0m
+[4.137s] [ 85%] [32mBuilding C object CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c.o[0m
+[4.137s] [ 85%] [32mBuilding C object CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c.o[0m
+[4.271s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/ar_interface/libar_interface__rosidl_generator_py.so[0m
+[4.313s] [ 87%] Built target ar_interface__rosidl_generator_py
+[4.334s] [ 93%] [32mBuilding C object CMakeFiles/ar_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ar_interface/_ar_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.334s] [ 93%] [32mBuilding C object CMakeFiles/ar_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ar_interface/_ar_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[4.334s] [ 93%] [32mBuilding C object CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ar_interface/_ar_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.448s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ar_interface/ar_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.448s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ar_interface/ar_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.453s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ar_interface/ar_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.491s] [100%] Built target ar_interface__rosidl_typesupport_introspection_c__pyext
+[4.492s] [100%] Built target ar_interface__rosidl_typesupport_c__pyext
+[4.497s] [100%] Built target ar_interface__rosidl_typesupport_fastrtps_c__pyext
+[4.513s] Invoked command in '/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/build/ar_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/build/ar_interface -- -j12 -l12
+[4.526s] Invoking command in '/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/build/ar_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/build/ar_interface
+[4.535s] -- Install configuration: ""
+[4.536s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ament_index/resource_index/rosidl_interfaces/ar_interface
+[4.536s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface
+[4.536s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg
+[4.536s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/cubic_traj_params.h
+[4.536s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/rosidl_generator_c__visibility_control.h
+[4.536s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/cubic_traj_coeffs.h
+[4.536s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail
+[4.537s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_coeffs__functions.h
+[4.537s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_params__type_support.h
+[4.537s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_params__functions.h
+[4.537s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_coeffs__functions.c
+[4.537s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_coeffs__type_support.h
+[4.537s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_coeffs__struct.h
+[4.537s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_params__struct.h
+[4.537s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_params__functions.c
+[4.538s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv
+[4.538s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/compute_cubic_traj.h
+[4.538s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail
+[4.538s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/compute_cubic_traj__type_support.h
+[4.538s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/compute_cubic_traj__functions.h
+[4.538s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/compute_cubic_traj__struct.h
+[4.538s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/compute_cubic_traj__functions.c
+[4.538s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/environment/library_path.sh
+[4.539s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/environment/library_path.dsv
+[4.539s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_generator_c.so
+[4.539s] -- Set runtime path of "/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_generator_c.so" to ""
+[4.540s] -- Up-to-date: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface
+[4.540s] -- Up-to-date: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg
+[4.540s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.540s] -- Up-to-date: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail
+[4.540s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_coeffs__rosidl_typesupport_fastrtps_c.h
+[4.540s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_params__rosidl_typesupport_fastrtps_c.h
+[4.540s] -- Up-to-date: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv
+[4.540s] -- Up-to-date: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail
+[4.540s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/compute_cubic_traj__rosidl_typesupport_fastrtps_c.h
+[4.540s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_typesupport_fastrtps_c.so
+[4.541s] -- Set runtime path of "/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[4.541s] -- Up-to-date: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface
+[4.541s] -- Up-to-date: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg
+[4.541s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.541s] -- Up-to-date: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail
+[4.541s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_params__rosidl_typesupport_introspection_c.h
+[4.541s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_coeffs__type_support.c
+[4.542s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_params__type_support.c
+[4.542s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_coeffs__rosidl_typesupport_introspection_c.h
+[4.542s] -- Up-to-date: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv
+[4.542s] -- Up-to-date: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail
+[4.542s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/compute_cubic_traj__type_support.c
+[4.542s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/compute_cubic_traj__rosidl_typesupport_introspection_c.h
+[4.542s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_typesupport_introspection_c.so
+[4.543s] -- Set runtime path of "/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_typesupport_introspection_c.so" to ""
+[4.543s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_typesupport_c.so
+[4.543s] -- Set runtime path of "/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_typesupport_c.so" to ""
+[4.543s] -- Up-to-date: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface
+[4.543s] -- Up-to-date: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg
+[4.543s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/cubic_traj_coeffs.hpp
+[4.543s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.543s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/cubic_traj_params.hpp
+[4.544s] -- Up-to-date: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail
+[4.544s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_params__struct.hpp
+[4.544s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_params__type_support.hpp
+[4.544s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_coeffs__struct.hpp
+[4.544s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_coeffs__builder.hpp
+[4.544s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_coeffs__traits.hpp
+[4.544s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_coeffs__type_support.hpp
+[4.545s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_params__traits.hpp
+[4.545s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_params__builder.hpp
+[4.545s] -- Up-to-date: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv
+[4.545s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/compute_cubic_traj.hpp
+[4.545s] -- Up-to-date: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail
+[4.545s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/compute_cubic_traj__traits.hpp
+[4.545s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/compute_cubic_traj__struct.hpp
+[4.545s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/compute_cubic_traj__type_support.hpp
+[4.545s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/compute_cubic_traj__builder.hpp
+[4.546s] -- Up-to-date: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface
+[4.546s] -- Up-to-date: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg
+[4.546s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.546s] -- Up-to-date: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail
+[4.546s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_params__rosidl_typesupport_fastrtps_cpp.hpp
+[4.546s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_coeffs__rosidl_typesupport_fastrtps_cpp.hpp
+[4.546s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/dds_fastrtps
+[4.546s] -- Up-to-date: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv
+[4.546s] -- Up-to-date: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail
+[4.546s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/compute_cubic_traj__rosidl_typesupport_fastrtps_cpp.hpp
+[4.547s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/dds_fastrtps
+[4.547s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_typesupport_fastrtps_cpp.so
+[4.547s] -- Set runtime path of "/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.547s] -- Up-to-date: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface
+[4.547s] -- Up-to-date: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg
+[4.547s] -- Up-to-date: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail
+[4.547s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_coeffs__rosidl_typesupport_introspection_cpp.hpp
+[4.547s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_coeffs__type_support.cpp
+[4.548s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_params__type_support.cpp
+[4.548s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_params__rosidl_typesupport_introspection_cpp.hpp
+[4.548s] -- Up-to-date: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv
+[4.548s] -- Up-to-date: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail
+[4.548s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/compute_cubic_traj__rosidl_typesupport_introspection_cpp.hpp
+[4.548s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/compute_cubic_traj__type_support.cpp
+[4.548s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_typesupport_introspection_cpp.so
+[4.549s] -- Set runtime path of "/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[4.549s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_typesupport_cpp.so
+[4.549s] -- Set runtime path of "/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_typesupport_cpp.so" to ""
+[4.549s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/environment/pythonpath.sh
+[4.549s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/environment/pythonpath.dsv
+[4.549s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface-0.0.0-py3.10.egg-info
+[4.550s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[4.550s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.550s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface-0.0.0-py3.10.egg-info/top_level.txt
+[4.550s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.550s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface
+[4.550s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/_ar_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.550s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/_ar_interface_s.ep.rosidl_typesupport_introspection_c.c
+[4.551s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/msg
+[4.551s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/msg/_cubic_traj_coeffs_s.c
+[4.551s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/msg/_cubic_traj_params_s.c
+[4.551s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/msg/_cubic_traj_params.py
+[4.551s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/msg/__init__.py
+[4.551s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/msg/_cubic_traj_coeffs.py
+[4.551s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/srv
+[4.551s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/srv/__init__.py
+[4.552s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/srv/_compute_cubic_traj_s.c
+[4.552s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/srv/_compute_cubic_traj.py
+[4.552s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/ar_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.552s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/ar_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.552s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/__init__.py
+[4.552s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/_ar_interface_s.ep.rosidl_typesupport_c.c
+[4.553s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/ar_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.553s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/libar_interface__rosidl_generator_py.so
+[4.589s] Listing '/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface'...
+[4.589s] Compiling '/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/__init__.py'...
+[4.589s] Listing '/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/msg'...
+[4.589s] Compiling '/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/msg/__init__.py'...
+[4.589s] Compiling '/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/msg/_cubic_traj_coeffs.py'...
+[4.589s] Compiling '/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/msg/_cubic_traj_params.py'...
+[4.589s] Listing '/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/srv'...
+[4.589s] Compiling '/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/srv/__init__.py'...
+[4.589s] Compiling '/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/srv/_compute_cubic_traj.py'...
+[4.593s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/ar_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.593s] -- Set runtime path of "/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/ar_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.593s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/ar_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.594s] -- Set runtime path of "/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/ar_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.594s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/ar_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.594s] -- Set runtime path of "/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/ar_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.594s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_generator_py.so
+[4.595s] -- Set runtime path of "/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_generator_py.so" to ""
+[4.595s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/msg/CubicTrajCoeffs.idl
+[4.595s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/msg/CubicTrajParams.idl
+[4.595s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/srv/ComputeCubicTraj.idl
+[4.595s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/msg/CubicTrajCoeffs.msg
+[4.595s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/msg/CubicTrajParams.msg
+[4.596s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/srv/ComputeCubicTraj.srv
+[4.596s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/srv/ComputeCubicTraj_Request.msg
+[4.596s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/srv/ComputeCubicTraj_Response.msg
+[4.596s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ament_index/resource_index/package_run_dependencies/ar_interface
+[4.596s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ament_index/resource_index/parent_prefix_path/ar_interface
+[4.596s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/environment/ament_prefix_path.sh
+[4.597s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/environment/ament_prefix_path.dsv
+[4.597s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/environment/path.sh
+[4.597s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/environment/path.dsv
+[4.597s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/local_setup.bash
+[4.597s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/local_setup.sh
+[4.597s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/local_setup.zsh
+[4.598s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/local_setup.dsv
+[4.598s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/package.dsv
+[4.598s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ament_index/resource_index/packages/ar_interface
+[4.598s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/cmake/export_ar_interface__rosidl_generator_cExport.cmake
+[4.598s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/cmake/export_ar_interface__rosidl_generator_cExport-noconfig.cmake
+[4.598s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/cmake/export_ar_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[4.599s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/cmake/export_ar_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.599s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/cmake/ar_interface__rosidl_typesupport_introspection_cExport.cmake
+[4.599s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/cmake/ar_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.599s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/cmake/ar_interface__rosidl_typesupport_cExport.cmake
+[4.599s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/cmake/ar_interface__rosidl_typesupport_cExport-noconfig.cmake
+[4.599s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/cmake/export_ar_interface__rosidl_generator_cppExport.cmake
+[4.600s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/cmake/export_ar_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.600s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/cmake/export_ar_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.600s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/cmake/ar_interface__rosidl_typesupport_introspection_cppExport.cmake
+[4.600s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/cmake/ar_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.600s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/cmake/ar_interface__rosidl_typesupport_cppExport.cmake
+[4.600s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/cmake/ar_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[4.601s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/cmake/export_ar_interface__rosidl_generator_pyExport.cmake
+[4.601s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/cmake/export_ar_interface__rosidl_generator_pyExport-noconfig.cmake
+[4.601s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/cmake/rosidl_cmake-extras.cmake
+[4.601s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.601s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[4.601s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/cmake/ament_cmake_export_targets-extras.cmake
+[4.601s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.602s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.602s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.602s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/cmake/ar_interfaceConfig.cmake
+[4.602s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/cmake/ar_interfaceConfig-version.cmake
+[4.602s] -- Installing: /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/install/ar_interface/share/ar_interface/package.xml
+[4.605s] Invoked command in '/home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/build/ar_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/muhie/Documents/cw/EMS628-COURSEWORK/ros2_ws/build/ar_interface

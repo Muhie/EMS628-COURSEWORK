@@ -1,99 +1,83 @@
-#!/usr/bin/env python3
 
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import Float64
-
-# import the custom message
 from ar_interface.msg import CubicTrajCoeffs
+from std_msgs.msg import Float64
+import numpy as np
 
 class PlotCubicTraj(Node):
     def __init__(self):
         super().__init__('plot_cubic_traj')
-        
-        # subscribe to the cubic traj coeffs  topic
-        self.subscription = self.create_subscription(
-            CubicTrajCoeffs,
-            'cubic_traj_coeffs',
-            self.coeffs_callback,
-            10)
-            
-        # created publishers position, velocity, and acceleration
-        self.pos_pub = self.create_publisher(Float64, 'position_trajectory', 10)
-        self.vel_pub = self.create_publisher(Float64, 'velocity_trajectory', 10)
-        self.acc_pub = self.create_publisher(Float64, 'acceleration_trajectory', 10)
-        
-        # simulation parameters
-        self.a0 = 0.0
-        self.a1 = 0.0
-        self.a2 = 0.0
-        self.a3 = 0.0
-        self.t0 = 0.0
-        self.tf = 0.0
-        
-        self.current_t = 0.0
-        self.is_active = False
-        
-        # 1 Hz
-        self.dt = 1
-        self.timer = self.create_timer(self.dt, self.timer_callback)
-        # output that the node has started
-        self.get_logger().info("plot cubic traj node started.")
+
+        # publishers for position, velocity and acceleration
+        self.pub_position = self.create_publisher(Float64, 'position_trajectory', 10)
+        self.pub_velocity = self.create_publisher(Float64, 'velocity_trajectory', 10)
+        self.pub_acceleration = self.create_publisher(Float64, 'acceleration_trajectory', 10)
+
+        # Initialise empty arrays and index for trajectory data
+        self.index = 0
+        self.position = []        
+        self.velocity = []
+        self.acceleration = []
+        # Create a new timer for each trajectory
+        self.timer = None
+
+        # subscriber
+        self.sub = self.create_subscription(CubicTrajCoeffs, 'cubic_traj_coeffs', self.coeffs_callback, 10)
 
     def coeffs_callback(self, msg):
-        self.get_logger().info(f'starting new trajectory simulation')
-        
-        # grab the coefficients
-        self.a0 = msg.a0
-        self.a1 = msg.a1
-        self.a2 = msg.a2
-        self.a3 = msg.a3
-        
-        self.t0 = msg.t0
-        self.tf = msg.tf
-        
-        # reset the current time and activate simulation
-        self.current_t = 0.0
-        self.is_active = True
+        # Extract polynomial coefficients and timeframe from message
+        a0 = msg.a0
+        a1 = msg.a1
+        a2 = msg.a2
+        a3 = msg.a3
+        t0 = msg.t0
+        tf = msg.tf
 
-    def timer_callback(self):
-        if not self.is_active:
-            return
-            
-        # using derivative rules to find position, velocity and acceleration eg. 
-        # p(t)=a0 + a1*t + a2*t^2 + a3*t^3
-        # v(t)=a1 + 2*a2*t + 3*a3*t^2
-        # a(t)=2*a2 + 6*a3*t
-        
-        t = self.current_t
-        
-        # position
-        pos_msg = Float64()
-        pos_msg.data = self.a0 + self.a1*t + self.a2*(t**2) + self.a3*(t**3)
-        self.pos_pub.publish(pos_msg)
-        
-        # velocity
-        vel_msg = Float64()
-        vel_msg.data = self.a1 + 2*self.a2*t + 3*self.a3*(t**2)
-        self.vel_pub.publish(vel_msg)
-        
-        # acceleration
-        acc_msg = Float64()
-        acc_msg.data = 2*self.a2 + 6*self.a3*t
-        self.acc_pub.publish(acc_msg)
-        
-        # increment time
-        self.current_t += self.dt
-        
+        # Generate 100 evenly spaced time points between t0 and tf
+        time = np.linspace(t0, tf, 100)
+
+
+        # Compute position, velocity and acceleration arrays using derivative rules
+        # p(t) = a0 + a1*t + a2*t^2 + a3*t^3
+        self.position = a0 + a1*time + a2*(time**2) + a3*(time**3)
+        # p'(t) = v(t) = a1 + 2*a2*t + 3*a3*t^2
+        self.velocity = a1 + 2*a2*time + 3*a3*(time**2)
+        # p''(t) = a(t) = 2*a2 + 6*a3*t
+        self.acceleration = 2*a2 + 6*a3*time
+
+        # Resets index value back to 0 to publish new trajectories
+        self.index = 0
+        self.get_logger().info(f'new trajectory received: t0={t0} tf={tf:.2f}')
+
+        # if self.timer is not None:
+        #     self.timer.cancel()
+        # Timer for each point, published every tf/100 seconds
+        period = tf/100
+        self.timer = self.create_timer(period, self.publish_point)
+
+    def publish_point(self):
+        # publishes one datapoint from each array per time tick
+        if self.index < 100:
+            msg = Float64()
+
+            msg.data = float(self.position[self.index])
+            self.pub_position.publish(msg)
+
+            msg.data = float(self.velocity[self.index])
+            self.pub_velocity.publish(msg)
+
+            msg.data = float(self.acceleration[self.index])
+            self.pub_acceleration.publish(msg)
+
+            self.index = self.index + 1
 
 
 # boilerplate code
 def main(args=None):
     rclpy.init(args=args)
-    plot_cubic_traj = PlotCubicTraj()
-    rclpy.spin(plot_cubic_traj)
-
-    plot_cubic_traj.destroy_node()
+    node = PlotCubicTraj()
+    rclpy.spin(node)
     rclpy.shutdown()
 
 if __name__ == '__main__':
