@@ -35,8 +35,8 @@ class ComputeCubicCoeffs(Node):
         
         a0 = p0
         a1 = v0
-        a2 = (3 * (pf - p0 - v0 * dt) - vf * dt) / (dt ** 2)
-        a3 = (vf * dt - 2 * (pf - p0 - v0 * dt)) / (dt ** 3)
+        a2 = (3 * (pf - p0) - (2 * v0 + vf) * dt) / (dt**2)
+        a3 = (-2 * (pf - p0) + (v0 +vf) * dt) / (dt ** 3)
         
         response.a0 = a0
         response.a1 = a1

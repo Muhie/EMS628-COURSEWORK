@@ -1,83 +1,111 @@
+#!/usr/bin/env python3
 
 import rclpy
 from rclpy.node import Node
-from ar_interface.msg import CubicTrajCoeffs
 from std_msgs.msg import Float64
-import numpy as np
+
+# Import the custom message
+from ar_interface.msg import CubicTrajCoeffs
 
 class PlotCubicTraj(Node):
     def __init__(self):
         super().__init__('plot_cubic_traj')
 
-        # publishers for position, velocity and acceleration
-        self.pub_position = self.create_publisher(Float64, 'position_trajectory', 10)
-        self.pub_velocity = self.create_publisher(Float64, 'velocity_trajectory', 10)
-        self.pub_acceleration = self.create_publisher(Float64, 'acceleration_trajectory', 10)
+        # Subscribe to the 'cubic_traj_coeffs' topic
+        self.subscription = self.create_subscription(
+            CubicTrajCoeffs,
+            'cubic_traj_coeffs',
+            self.coeffs_callback,
+            10)
 
-        # Initialise empty arrays and index for trajectory data
-        self.index = 0
-        self.position = []        
-        self.velocity = []
-        self.acceleration = []
-        # Create a new timer for each trajectory
-        self.timer = None
+        # Publishers for position, velocity, and acceleration
+        self.pos_pub = self.create_publisher(Float64, 'position_trajectory', 10)
+        self.vel_pub = self.create_publisher(Float64, 'velocity_trajectory', 10)
+        self.acc_pub = self.create_publisher(Float64, 'acceleration_trajectory', 10)
 
-        # subscriber
-        self.sub = self.create_subscription(CubicTrajCoeffs, 'cubic_traj_coeffs', self.coeffs_callback, 10)
+        # Simulation parameters
+        self.a0 = 0.0
+        self.a1 = 0.0
+        self.a2 = 0.0
+        self.a3 = 0.0
+        self.t0 = 0.0
+        self.tf = 0.0
+
+        self.current_t = 0.0
+        self.is_active = False
+
+        # 50 Hz control loop for smooth plotting
+        self.dt = 0.02 
+        self.timer = self.create_timer(self.dt, self.timer_callback)
+
+        self.get_logger().info("Plot Cubic Traj Node Started.")
 
     def coeffs_callback(self, msg):
-        # Extract polynomial coefficients and timeframe from message
-        a0 = msg.a0
-        a1 = msg.a1
-        a2 = msg.a2
-        a3 = msg.a3
-        t0 = msg.t0
-        tf = msg.tf
+        self.get_logger().info(f'Starting new trajectory simulation...')
 
-        # Generate 100 evenly spaced time points between t0 and tf
-        time = np.linspace(t0, tf, 100)
+        # Load the coefficients
+        self.a0 = msg.a0
+        self.a1 = msg.a1
+        self.a2 = msg.a2
+        self.a3 = msg.a3
 
+        self.t0 = msg.t0
+        self.tf = msg.tf
 
-        # Compute position, velocity and acceleration arrays using derivative rules
+        # Reset the current time and activate simulation
+        self.current_t = 0.0
+        self.is_active = True
+
+    def timer_callback(self):
+        if not self.is_active:
+            return
+
+        # The equation for cubic polynomial is based on relative time (from 0 to tf-t0)
+        # since t0 is always 0 based on coursework instructions point 1.
         # p(t) = a0 + a1*t + a2*t^2 + a3*t^3
-        self.position = a0 + a1*time + a2*(time**2) + a3*(time**3)
-        # p'(t) = v(t) = a1 + 2*a2*t + 3*a3*t^2
-        self.velocity = a1 + 2*a2*time + 3*a3*(time**2)
-        # p''(t) = a(t) = 2*a2 + 6*a3*t
-        self.acceleration = 2*a2 + 6*a3*time
+        # v(t) = a1 + 2*a2*t + 3*a3*t^2
+        # a(t) = 2*a2 + 6*a3*t
 
-        # Resets index value back to 0 to publish new trajectories
-        self.index = 0
-        self.get_logger().info(f'new trajectory received: t0={t0} tf={tf:.2f}')
+        t = self.current_t
 
-        # if self.timer is not None:
-        #     self.timer.cancel()
-        # Timer for each point, published every tf/100 seconds
-        period = tf/100
-        self.timer = self.create_timer(period, self.publish_point)
+        # Position
+        pos_msg = Float64()
+        pos_msg.data = self.a0 + self.a1*t + self.a2*(t**2) + self.a3*(t**3)
+        self.pos_pub.publish(pos_msg)
 
-    def publish_point(self):
-        # publishes one datapoint from each array per time tick
-        if self.index < 100:
-            msg = Float64()
+        # Velocity
+        vel_msg = Float64()
+        vel_msg.data = self.a1 + 2*self.a2*t + 3*self.a3*(t**2)
+        self.vel_pub.publish(vel_msg)
 
-            msg.data = float(self.position[self.index])
-            self.pub_position.publish(msg)
+        # Acceleration
+        acc_msg = Float64()
+        acc_msg.data = 2*self.a2 + 6*self.a3*t
+        self.acc_pub.publish(acc_msg)
 
-            msg.data = float(self.velocity[self.index])
-            self.pub_velocity.publish(msg)
+        # Increment time
+        self.current_t += self.dt
 
-            msg.data = float(self.acceleration[self.index])
-            self.pub_acceleration.publish(msg)
-
-            self.index = self.index + 1
-
+        # Stop simulation if we have reached the final time
+        expected_duration = self.tf - self.t0
+        if self.current_t > expected_duration:
+            self.is_active = False
+            self.get_logger().info('Trajectory finished.')
 
 # boilerplate code
 def main(args=None):
     rclpy.init(args=args)
-    node = PlotCubicTraj()
-    rclpy.spin(node)
+    plot_cubic_traj = PlotCubicTraj()
+    try:
+        rclpy.spin(plot_cubic_traj)
+    except KeyboardInterrupt:
+        pass
+    finally:
+        plot_cubic_traj.destroy_node()
+        rclpy.shutdown()
+    rclpy.spin(plot_cubic_traj)
+
+    plot_cubic_traj.destroy_node()
     rclpy.shutdown()
 
 if __name__ == '__main__':
