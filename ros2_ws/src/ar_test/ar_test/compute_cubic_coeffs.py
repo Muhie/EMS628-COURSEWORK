@@ -1,5 +1,23 @@
 #!/usr/bin/env python3
 
+"""
+Author: Muhie
+Date 9/03/26
+Version: 1.00
+Description: This node acts as a ros2 service i.e it is not publishing and subscribing, 
+it takes in 6 parameters specified in the ComputeCubicTraj service file and returns 
+the coefficients of the polynomial so that plot_cubic_traj can find the curve.
+
+KEY DEFINITION PER: https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Services/Understanding-ROS2-Services.html
+
+
+Services are another method of communication for nodes in the ROS graph. 
+Services are based on a call-and-response model versus the publisher-subscriber model of topics. 
+While topics allow nodes to subscribe to data streams and get continual updates,
+ services only provide data when they are specifically called by a client.
+
+"""
+
 import rclpy
 from rclpy.node import Node
 

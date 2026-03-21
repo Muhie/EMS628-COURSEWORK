@@ -1,5 +1,16 @@
 #!/usr/bin/env python3
 
+"""
+Author: Muhie
+Date 9/03/26
+Version: 1.00
+Description: This node subscribes to the cubic_traj_params topic and calls the compute service
+it receives a0, a1, a2, a3 then publishes these to the cubic_traj_coeffs topic
+
+"""
+
+
+
 import rclpy
 from rclpy.node import Node
 
