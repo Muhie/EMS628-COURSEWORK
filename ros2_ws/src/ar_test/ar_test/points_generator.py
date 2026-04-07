@@ -4,6 +4,7 @@
 Author: Muhie
 Date 9/03/26
 Version: 1.00
+
 Description: The points_generator node generates different random values for initial and final
 position, p0, pf, initial and final velocity, v0, vf, initial and final time, t0, tf, every 10 seconds
 on the cubic_traj_params topic

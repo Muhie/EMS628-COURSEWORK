@@ -2,8 +2,9 @@
 
 """
 Author: Muhie
-Date 9/03/26
+Date 12/03/26
 Version: 1.00
+
 Description: This node acts as a ros2 service i.e it is not publishing and subscribing, 
 it takes in 6 parameters specified in the ComputeCubicTraj service file and returns 
 the coefficients of the polynomial so that plot_cubic_traj can find the curve.

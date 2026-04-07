@@ -4,6 +4,7 @@
 Author: Muhie
 Date 13/03/26
 Version: 1.00
+
 Description: This is the plot_cubic_trajectory node which listens to the cubic_traj_coeffs topic, it creates 
 publishers which can be monitored in rqt for the velocity, position and acceleration trajectories
 
